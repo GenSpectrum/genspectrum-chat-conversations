@@ -1,0 +1,181 @@
+id	task_id	language	text
+S001_1_1_1	1	Nederlands	Op basis van de beschikbare sequenties, wat zijn de 5 meest voorkomende SARS-CoV-2 lineages in 2022 in Azië?
+S001_1_1_2	1	Nederlands	Doorzoek de beschikbare SARS-CoV-2 sequenties uit Azië en rapporteer de 5 meest voorkomende lineages in 2022.
+S001_1_1_3	1	Nederlands	Welke 5 SARS-CoV-2 lineages komen vaakst voor in de beschikbare sequenties van 2022 uit Azië?
+S001_1_2_1	2	Nederlands	Hoeveel sequenties werden per maand verzameld in Brazilië?
+S001_1_2_2	2	Nederlands	Rapporteer het aantal sequenties per maand uit Brazilië.
+S001_1_2_3	2	Nederlands	Hoeveel genomen vanuit Brazilië worden maandelijks gesequenced sinds het begin van de pandemie?
+S001_1_3_1	3	Nederlands	Rapporteer het aantal B.1.1.7 sequenties per land.
+S001_1_3_2	3	Nederlands	Hoeveel B.1.1.7 sequenties zijn er per land?
+S001_1_3_3	3	Nederlands	Hoeveel sequenties van de B.1.1.7 variant zijn er beschikbaar per land?
+S001_1_4_1	4	Nederlands	Welke mutaties zijn aanwezig in meer dan 90% van de B.1.1.7 sequenties?
+S001_1_4_2	4	Nederlands	Doorzoek alle B.1.1.7 sequenties en rapporteer alle mutaties die voorkomen met een frequentie hoger dan 90%.
+S001_1_4_3	4	Nederlands	Rapporteer de mutaties die in meer dan 90% van de B.1.1.7 sequenties voorkomen.
+S001_1_5_1	5	Nederlands	Hoeveel sequenties hebben zowel de S:N501Y mutatie als één van de volgende mutaties: S:H69- en S:V70-?
+S001_1_5_2	5	Nederlands	"Rapporteer het aantal sequenties die de volgende mutaties bevatten:
+- S:N501Y 
+- S:H69- of S:V70-"
+S001_1_5_3	5	Nederlands	Rapporteer het aantal sequenties die de S:N501Y mutatie bevatten samen met de S:H69- mutatie of de S:V70- mutatie.
+S001_1_6_1	6	Nederlands	In welke staat in de Verenigde Staten werd de XBB.1 variant voor het eerst gedetecteerd?
+S001_1_6_2	6	Nederlands	Rapporteer de Amerikaanse staat waar de XBB.1 variant voor het eerst gedetecteerd werd.
+S001_1_6_3	6	Nederlands	In welke Amerikaanse staat werd XBB.1 voor het eerst gevonden?
+S001_2_1_1	1	italiano	Vorrei sapere le 5 varianti piu' prevalenti in Asia dal 1 gennaio 2022 al 31 dicembre 2022
+S001_2_1_2	1	italiano	Vorrei sapere quali varianti hanno raggiunto singolarmente almeno il 50% in qualsiasi settimana del 2022 in Asia
+S001_2_1_3	1	English	i want to find out which are the 5 most prevalent lineages in asia during 2022
+S001_2_2_1	2	italiano	Quanto sequenzia il brasile ogni mese ?
+S001_2_2_2	2	italiano	Vorrei sapere quante sequenze x millione di abitanti fa il brasile nel 2023
+S001_2_2_3	2	English	I want to know the sequencing intensity in Brazil in the past 3 months
+S001_2_3_1	3	italiano	Quante sequenze di Alpha sono state trovate in ogni paese?
+S001_2_3_2	3	italiano	Vorrei sapere il totale delle sequenze di B.1.1.7 per ogni paese
+S001_2_3_3	3	English	How many total samples of Alpha have been sequenced in each country
+S001_2_4_1	4	italiano	Voglio sapere le mutazioni presenti almeno nel 90% delle sequenze di Alpha
+S001_2_4_2	4	English	I want to know nuc mutations which are present in at least 90% of B.1.1.7 sequences
+S001_3_1_1	1	Swiss German (Zurich dialekt)	Welles sind die 5 hüüfigste SARS-CoV-2 Stränge under de vorhandene Sequänze in Asie usem 2022?
+S001_3_1_2	1	Swiss German (Zurich dialekt)	Welli 5 SARS-CoV-2 Sträng chömmed in Asie am meiste vor ih de usem 2022 vorhandene Sequänze?
+S001_3_1_3	1	Swiss German (Zurich dialekt)	Was fürtigi SARS-CoV-2 Sträng sind die 5 hüüfigste us de Sequänze wo im 2022 z'Asie vorhande sind?
+S001_3_2_1	2	Swiss German (Zurich dialekt)	Wieviel Sequänze sind z'Brasilie monatlich gsammled worde?
+S001_3_2_2	2	Swiss German (Zurich dialekt)	Wieviel Sequänze sind in Brasilie jede Monat gsammled worde?
+S001_3_2_3	2	Swiss German (Zurich dialekt)	Wieviel Sequänze hät me z'Brasilie monatlich gsammled?
+S001_3_3_1	3	Swiss German (Zurich dialekt)	Wieviel B.1.1.7 Sequänze gits pro Land ?
+S001_3_3_2	3	Swiss German (Zurich dialekt)	Was isch d'Ahzahl ah B.1.1.7 Sequänze wo fü jedes Land gsammled worde isch?
+S001_3_3_3	3	Swiss German (Zurich dialekt)	Chasch mr fü jedes Land ahgäh, wieviel B.1.1.7 Sequänze es gsammled hät?
+S001_3_4_1	4	Swiss German (Zurich dialekt)	Welli Mutatione chömmed ih über 90% vo allne B.1.1.7 Sequänze vor?
+S001_3_4_2	4	Swiss German (Zurich dialekt)	Welles sind dMutatione wo ih meh als 90% vo de B.1.1.7 Sequänze vorhande sind?
+S001_3_4_3	4	Swiss German (Zurich dialekt)	Welli Mutation sind ih meh als 90% vo allne sequenzierte B.1.1.7 Sträng z'finde?
+S001_3_5_1	5	Swiss German (Zurich dialekt)	Wieviel Sequänze händ die folgende Mutatione: S:N501Y und eini vo dene beide: S:H69- oder S:V70- ?
+S001_3_5_2	5	Swiss German (Zurich dialekt)	Wieviel Sequänze händ sowohl S:N501Y und entweder S:H69- oder S:V70-
+S001_3_5_3	5	Swiss German (Zurich dialekt)	Was isch dAhzahl ah Sequänze mit mit de S:N501Y Mutation und einere vo S:H69- oder S:V70-?
+S001_3_6_1	6	Swiss German (Zurich dialekt)	Ih wellem US Bundesstaat isch XBB.1 s'erst mal entdeckt worde?
+S001_3_6_2	6	Swiss German (Zurich dialekt)	Ih wellem vo de amerikanische Bundesstaate isch XBB.1 zum erste mal entdeckt worde?
+S001_3_6_3	6	Swiss German (Zurich dialekt)	Welle Bundestaat ih de USA hät als erste XBB.1 entdeckt?
+S001_4_1_1	1	Spanish	Cuáles son los 5 linajes de SARS-CoV-2 más frecuentes entre las secuencias del 2022 en Asia.
+S001_4_1_2	1	Spanish	Entre las secuencias disponibles de SARS-CoV-2 del 2022 en Asia, dime cuáles son los 5 más comunes.
+S001_4_1_3	1	Spanish	Encuentra los 5 lineajes de SARS-CoV-2 más frecuentes  en 2022 en Asia.
+S001_4_2_1	2	Spanish	Cuántas secuencias fueron recolectadas cada mes en Brasil?
+S001_4_2_2	2	Spanish	Averigua cuántas secuencias hay por mes en Brasil.
+S001_4_2_3	2	Spanish	Encuentra cuántas secuencias por mes hay de Brasil.
+S001_4_3_1	3	Spanish	Averigua el número de sequencias de B.1.1.7 por país.
+S001_4_3_2	3	Spanish	Cuántas secuencias de B.1.1.7 hay de cada país.
+S001_4_3_3	3	Spanish	Dime el número de B.1.1.7 por país.
+S001_4_4_1	4	Spanish	Qué mutaciones se encuentran en más del 90% de las secuencias de B.1.1.7?
+S001_4_4_2	4	Spanish	Cuáles son las mutaciones presentes en más del 90% de todas las secuencias de B.1.1.7?
+S001_4_4_3	4	Spanish	Dime las mutaciones presentes en al menos el 90% de las secuencias de B.1.1.7
+S001_4_5_1	5	Spanish	Cuántas secuencias tienen la mutación S:N501Y junto con S:H69- o con S:V70-
+S001_4_5_2	5	Spanish	Dime cuántas muestras tienen la mutación S:N501Y junto con S:H69- o con S:V70-
+S001_4_6_1	6	Spanish	Averigua en qué estado de EEUU se detectó XBB.1 por primera vez
+S001_4_6_2	6	Spanish	Cuál es el estado estadounidense en que se detectó por primera vez XBB.1?
+S001_5_1_1	1	Greek	Πιές είνε οι πέντε πιο σιχνές καταγωγείς του SARS-CoV-2 στον αριθμό διαθέσιμον σειρών το 2022 στην Ασία;
+S001_5_1_2	1	Greek	Πιές καταγωγεις του SARS-CoV-2 εινε οι πεντε πιο σιχνές του 2022 στην Ασία;
+S001_5_1_3	1	Greek	Δοσε τεις μεντε πιο σιχνες καταγωγεις του ΣΑΡΣ-ΚοΒ-2 της Ασιας το 2022;
+S001_5_2_1	2	Greek	Ποσες σειρες μαζευτικανε τον μηνα στην Βραζιλια;
+S001_5_2_2	2	Greek	Βρες ποσες σειρες μαζευτικανε καθε μηνα στην Βραζιλια;
+S001_5_2_3	2	Greek	Ποσες σειρες μαζευτικανε τον μηνα στην Βραζιλια;
+S001_5_3_1	3	Greek	Βρες τον αριθμο τον B.1.1.7 σειρων ανα χωρα
+S001_5_3_2	3	Greek	Ποιος ειναι ο αριθμος τον B.1.1.7 σειρων ανα χωρα;
+S001_5_3_3	3	Greek	Ποσεσ B.1.1.7 σειρες υπαρχουν ανα χωρα;
+S001_5_4_1	4	Greek	Βρες ποιες μεταλλάξεις υπαρχουν στο 90 τις 100 απο ολλες τεις B.1.1.7 σειρες
+S001_5_4_2	4	Greek	Ποιες μεταλλαξεις υπαρχουν σε 90% απο ολλες τεις B.1.1.7 σειρες
+S001_5_4_3	4	Greek	Πες μου ποιες μεταλλαξεις υπαρχουν στο 90 της 100 των Β.1.1.7 σειρων
+S001_5_5_1	5	Greek	Βρες ποσες σειρες εχουν της μεταλλαξεις Σ:Ν501Υ και μιά απο S:H69- η S:V70-
+S001_5_5_2	5	Greek	Ποσες σειρες εχουν τησ μεταλλαξεις S:N501Y και S:H69- η S:V70-;
+S001_5_5_3	5	Greek	Ποσες σειρες υπαρχει που εχουν τεις μεταλλαξεις S:N501Y και S:H69- η S:V70-;
+S001_5_6_1	6	Greek	Ποια πολιτεια της Αμερικης ηταν η πρωτη να βρει το XBB.1;
+S001_5_6_2	6	Greek	Ποια Αμερικανικη πολιτεια ηταν η πρωτη να βρει το XBB.1;
+S001_5_6_3	6	Greek	Ποια ηταν η πρωτη πολιτεια της Αμερικης να βρει το XBB.1;
+S001_6_1_1	1	German	5 häufigsten lineages in 2022 in Asien
+S001_6_1_2	1	German	5 häufigste Linien in 2022 in Asien
+S001_6_1_3	1	German	Bitte finde die 5 häufigsten Lineages in Asien im Jahr 2022
+S001_6_2_1	2	German	Wie viele Sequenzen wurden pro Monat aus Brasilien übermittelt?
+S001_6_2_2	2	German	Zahl der Sequenzen aus Brasilien pro Monat nach collection date
+S001_6_2_3	2	German	Sequenzen pro Monat übermittelt aus Brasilien
+S001_6_3_1	3	German	Liste die Zahl der B.1.1.7 Sequenzen pro Land auf
+S001_6_3_2	3	German	Zahl der B.1.1.7 nach Land
+S001_6_4_1	4	German	Welche Mutationen sind in mehr als 90% aller B.1.1.7 enthalten?
+S001_6_5_1	5	German	Wie viele Sequenzen haben sowohl S:N501Y als auch mindestens eine von: S:69- oder S:70-
+S001_6_6_1	6	German	In welchem US-Staat wurde die erstes XBB.1 Sequenz gefunden?
+S001_7_1_1	1	French	En 2022, quelles étaient les 5 lignées de SARS-CoV-2 les plus communes en Asie?
+S001_7_1_2	1	French	Quelles étaient les 5 lignées de SARS-CoV-2 les plus prépondérantes en Asie en 2022?
+S001_7_1_3	1	French	Quelles étaient les 5 principales lignées de SARS-CoV-2 circulant en Asie en 2022?
+S001_7_2_1	2	French	Combien de séquences par mois ont été échantillonées au Brésil?
+S001_7_2_2	2	French	Quel est le total par mois du nombre de séquences échantillonnées au Brésil?
+S001_7_2_3	2	French	Par mois, combien de séquences sont originaires du Brésil?
+S001_7_3_1	3	French	Combien y a-t-il de séquences du variant B.1.1.7 par pays dans le monde?
+S001_7_3_2	3	French	Combien de séquences du variant B.1.1.7 ont été échantillonnées par pays?
+S001_7_3_3	3	French	Combien de séquences du variant B.1.1.7 sont disponibles par pays?
+S001_7_4_1	4	French	Quelles sont les mutations présentes dans plus de 90% des séquences du variant B.1.1.7? 
+S001_7_4_2	4	French	Quelles mutations sont partagées par au moins 90% des séquences du variant B.1.1.7?
+S001_7_4_3	4	French	Quelles sont les mutations définissant au moins 90% des séquences du variant B.1.1.7?
+S001_7_5_1	5	French	Combien de séquences contenant la mutation S:N501Y contiennent aussi les mutations S:H69- ou S:V70-?
+S001_7_5_2	5	French	Parmi les sequences définies par la mutation S:N501Y, combien de séquences ont aussi S:H69- ou S:V70-?
+S001_7_5_3	5	French	Combien de séquences sont caractérisées par la présence simultanée des mutations S:N501Y et S:H69- ou des mutations S:N501Y et S:V70- ?
+S001_7_6_1	6	French	Dans quel état des États-Unis le variant XBB.1 a-t-il été détecté?
+S001_7_6_2	6	French	De quel état des États-Unis le variant XBB.1 est-il originaire?
+S001_7_6_3	6	French	Quel état des États-Unis a échantillonné la première séquence correspondant au variant XBB.1?
+S001_8_1_1	1	Afrikaans	Wat is die 5 mees algemene SARS-CoV-2 linies onder the beskikbare genome van Asië in 2022?
+S001_8_1_2	1	Afrikaans	Vind die 5 wydverspreidste SARS-CoV-2 klades in Asië in 2022.
+S001_8_1_3	1	Afrikaans	Lys die 5 algemeenste lineages van SARS-CoV-2, tussen SARS-CoV-2 genomes van Asië in 2022.
+S001_8_2_1	2	Afrikaans	Hoeveel sekwensies was per maand in Brasilië versamel?
+S001_8_2_2	2	Afrikaans	Vind uit hoeveel genome elke maand in Brasilië gekollekteer is.
+S001_8_2_3	2	Afrikaans	Wat is die aantal sequences wat elke maand in Brasilië gecollect is?
+S001_8_3_1	3	Afrikaans	Hoeveel B.1.1.7 genome kom van elke land af?
+S001_8_3_2	3	Afrikaans	Wat is die nommer van B.1.1.7 genome van elke land?
+S001_8_3_3	3	Afrikaans	Hoeveel B.1.1.7 sequences is in elke land versamel?
+S001_8_4_1	4	Afrikaans	Vind uit watter mutasies is teenwoordig in meer as 90% van al die B.1.1.7 genome.
+S001_8_4_2	4	Afrikaans	Watter mutasies is in meer as 90 persent van B.1.1.7 sekwensies?
+S001_8_4_3	4	Afrikaans	Lys die mutations wat teenwoordig is in meer as 90% van al die B.1.1.7 sequences.
+S001_8_5_1	5	Afrikaans	Wat is die nommer van sekwensies met die mutasies S:N501Y en S:H69- of S:V70-.
+S001_8_5_2	5	Afrikaans	In hoeveel genome is die mutasies S:N501Y en of S:H69- of S:V70- teenwoordig?
+S001_8_5_3	5	Afrikaans	Vind uit hoeveel sequences die mutations N:501Y asook S:H69- of S:V70- het.
+S001_8_6_1	6	Afrikaans	In watter Amerikaanse staat is XBB.1 eerste gevind?
+S001_8_6_2	6	Afrikaans	Vind uit die staat van die Vereenigde State van Amerika waar XBB.1 eerste gekry is.
+S001_8_6_3	6	Afrikaans	Waar in Amerika is XBB.1 eerste gevind? Lys asb. net die staat.
+S001_9_1_1	1	English	What were the 5 most common lineages seen in Asia last year?
+S001_9_1_2	1	English	List the 5 main lineages detected in Asia in 2022.
+S001_9_1_3	1	English	top 5 lineages in Asia in 2022.
+S001_9_2_1	2	English	On average, how many sequences per month do we have from Brazil?
+S001_9_2_2	2	English	sequences per month from Brazil
+S001_9_2_3	2	English	What's the mean number of sequences per month available from Brazil?
+S001_9_3_1	3	English	List the number of B.1.1.7 sequences for each country.
+S001_9_3_2	3	English	For each country, how many B.1.1.7 sequences are there?
+S001_9_3_3	3	English	What are the country-specific B.1.1.7 sequence counts?
+S001_9_4_1	4	English	List mutations present in 90% of all B.1.1.7 sequences.
+S001_9_4_2	4	English	What mutations are in 90% of B.1.1.7 sequences?
+S001_9_4_3	4	English	What are the mutations shared by at least 90% of all B.1.1.7 sequences?
+S001_9_5_1	5	English	How many sequences have mutation S:N501Y and either S:H69- or S:V70?
+S001_9_5_2	5	English	List all sequences which have mutation S:N501Y and exactly one of S:H69- or S:V70.
+S001_9_5_3	5	English	From the set of sequences having mutation S:N501Y, list those which also have either S:H69- or S:V70.
+S001_9_6_1	6	English	Where in the USA (ie. which state) was XBB.1 first detected?
+S001_9_6_2	6	English	Imagine a game between the states of the USA.  The winner of this game is the state in which XBB.1 was first detected.  Which state would have won this game?
+S001_9_6_3	6	English	In which US state was XBB.1 first detected?
+S001_10_1_1	1	German	Was waren 2022 die 5 häufigsten Corona-Varianten in Asien?
+S001_10_1_2	1	German	Von welchen fünf sars-cov2 Varianten hatten wir am meisten Sequenzen im Jahr 2022 aus Asien? 
+S001_10_1_3	1	German	Gib mir die 5 häufigsten Covid-Varianten, die 2022 in Asien sequenziert wurden.
+S001_10_2_1	2	German	Wie viele Sequenzen wurden jeden Monat in Brasilien gesammelt?
+S001_10_2_2	2	German	Kannst du mir die Anzahl an Sequenzen sagen, die pro Monat in Brasilien sequenziert wurden?
+S001_10_2_3	2	German	Wie viel wurde in Brasilien sequenziert, bitte jeweils nach Monat.
+S001_10_3_1	3	German	Ich möchte die Anzahl an B.1.1.7 Sequenzen, stratifiziert nach Land wissen.
+S001_10_3_2	3	German	Wie viel wurde in jedem Land B.1.1.7 insgesamt sequenziert?
+S001_10_3_3	3	German	Was ist die Summe an B-eins-eins-sieben Sequenzen pro Land weltweit?
+S001_10_4_1	4	German	Welche Mutationen sind in über 90% aller B.1.1-7 sequenzen präsent?
+S001_10_4_2	4	German	Welche Mutationen sind in über 90% aller B.1.1-7 sequenzen zu finden?
+S001_10_4_3	4	German	Ich würde gerne eine Liste von Mutationen haben, die jeweils in mehr als 90 Prozent aller B.1.1.7 Sequenzen vorkommen.
+S001_10_5_1	5	German	"Wie viele Sequenzen haben die Mutation ""S:N501Y"", und dazu entweder die Mutation ""S:H69-"" oder die Mutation ""S:V70-""?"
+S001_10_5_2	5	German	Wie viele Sequenzen haben die S:N501Y-Mutation, und dazu entweder die S:H69- oder die S:V70- Mutation?
+S001_10_5_3	5	German	"Wie viele Sequenzen gibt es mit der Mutation S:N501Y, plus entweder die Mutation ""S:H69-"" oder die Mutation ""S:V70-""?"
+S001_10_6_1	6	German	In welchem Staat wurde XBB.1 als erstes in den USA entdeckt?
+S001_10_6_2	6	German	Wo wurde die Variante XBB.1 zuerst in den USA gefunden? Also in welchem Bundesstaat.
+S001_10_6_3	6	German	Aus welchem Staat in Amerika ist die erste XBB.1 Sequenz, die hochgeladen wurde?
+S001_11_1_1	1	中文	2022 年亚洲可用序列数量中最常见的 5 个 新冠序列
+S001_11_1_2	1	中文	在所有能用的序列中，找出 2022 年亚洲最常见的 5 个 新冠序列
+S001_11_2_1	2	中文	每月巴西收集多少序列
+S001_11_2_2	2	中文	巴西每月收集多少序列
+S001_11_2_3	2	中文	巴西每月收集多少dna
+S001_11_3_1	3	中文	每个国家b117序列的数量
+S001_11_3_2	3	中文	找到每个国家b117序列的数量
+S001_11_4_1	4	中文	找到在百分之90以上的B.1.1.7序列中都存在的变异
+S001_11_4_2	4	中文	百分之90以上的B117序列中都有的变异
+S001_11_4_3	4	中文	哪个变异在90%以上的B117中都存在
+S001_11_5_1	5	中文	多少序列有S:N501Y变异和S:H69- ，S:V70-的其中之一
+S001_11_5_2	5	中文	找出多少序列同时有S:N501Y变异以及S:H69- 和S:V70-的其中之一
+S001_11_6_1	6	中文	XBB.1首先在美国哪个州被发现
+S001_11_6_2	6	中文	XBB.1在美国哪个州被最先检测到

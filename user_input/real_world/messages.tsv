@@ -1,0 +1,668 @@
+id	conversation_id	timestamp	text
+RW_445	20230419103108-MOvfWzR	2023-04-19 10:31:56.744239	what are the defining mutations of xbb.1.5.1 that are not in xbb.1.5
+RW_446	20230419103108-MOvfWzR	2023-04-19 10:32:13.612092	what can you do? 
+RW_447	20230419103315-FFzguyo	2023-04-19 10:34:29.127574	what are the most prevalent lineages (based on Nextclade) in Israel in in the last 3 months? 
+RW_448	20230419103845-QaaSGIH	2023-04-19 10:39:33.036605	what's the variant with most sequences in Israel in the last 64 days? 
+RW_449	20230419103845-QaaSGIH	2023-04-19 10:41:08.102512	what's the variant classified by Nextclade most prevalent in Israel in last 35 days? 
+RW_450	20230419104231-eRgvYTL	2023-04-19 10:42:45.563104	which lineages are circulating in Spain?
+RW_451	20230419104231-eRgvYTL	2023-04-19 10:43:13.145895	which lineages are currently circulating in Spain?
+RW_452	20230419104231-eRgvYTL	2023-04-19 10:43:49.696402	which lineages are circulating in April in Spain?
+RW_453	20230419104206-VlaqCmU	2023-04-19 10:44:13.725414	Please, display a table that ranks Russians based on the frequency of their appearance in Wikipedia. Top 50 is enough.
+RW_454	20230419104231-eRgvYTL	2023-04-19 10:44:25.477647	which are the most common lineages in the last month in Spain?
+RW_455	20230419104206-VlaqCmU	2023-04-19 10:44:43.680904	Can I help you somehow?
+RW_456	20230419104231-eRgvYTL	2023-04-19 10:45:08.592099	which are the defining mutations of XBB.1.16?
+RW_457	20230419104231-eRgvYTL	2023-04-19 10:45:27.924851	which mutations are present in XBB 1.16?
+RW_458	20230419104206-VlaqCmU	2023-04-19 10:45:29.387073	What kind of questions CAN you answer?
+RW_459	20230419104206-VlaqCmU	2023-04-19 10:45:42.579686	LoL 🤣
+RW_460	20230419104231-eRgvYTL	2023-04-19 10:45:47.017609	which amino acid mutations are present in XBB 1.16?
+RW_461	20230419104231-eRgvYTL	2023-04-19 10:45:55.383730	which amino acid mutations are present in XBB.1.16?
+RW_462	20230419104231-eRgvYTL	2023-04-19 10:46:17.761752	which amino acid mutations are present in >10% of XBB.1.16?
+RW_463	20230419104937-vDTgdiC	2023-04-19 10:50:03.577748	What's the situation
+RW_464	20230419104937-vDTgdiC	2023-04-19 10:50:16.012597	What can you do
+RW_465	20230419110626-LSjBhhM	2023-04-19 11:07:09.529557	What is the variant growing the most in the last three weeks in Bayern (Bavaria) Germany ??
+RW_466	20230419110626-LSjBhhM	2023-04-19 11:08:10.397524	What is the quickesr growing variant in the last five weeks in Bayern (Bavaria) Germany ?
+RW_467	20230419110750-MQgtbYm	2023-04-19 11:08:10.444876	What are the symptoms of Arcturus
+RW_468	20230419110626-LSjBhhM	2023-04-19 11:08:36.508561	Thank you
+RW_469	20230419110750-MQgtbYm	2023-04-19 11:09:05.749076	How doee the COVID variant Arcturus differ from Omicron
+RW_470	20230419110750-MQgtbYm	2023-04-19 11:09:34.982433	Tell me about XBB1.6
+RW_472	20230419111027-GOFhuPj	2023-04-19 11:11:10.247740	What is the most common variant in new york? 
+RW_473	20230419111027-GOFhuPj	2023-04-19 11:11:52.368549	What is the most common variant in new york in april 2023 
+RW_474	20230419112429-YLoYEqi	2023-04-19 11:26:07.035104	Voitko antaa taulukon kaikista suomea koskevista sekvensoinneista esimerkiksi päivän tai viikon tarkkuudella ?
+RW_475	20230419112429-YLoYEqi	2023-04-19 11:34:56.068692	Can you provide a table of all sequencings in Finland by date and variant in exportable format?
+RW_476	20230419112429-YLoYEqi	2023-04-19 11:36:06.604234	can you provide a table of sequences in Finland in 2020 by variant and date ?
+RW_477	20230419112429-YLoYEqi	2023-04-19 11:37:02.498011	can you provide a table of number of sequences in Finland by date ?
+RW_478	20230419113840-RnGTChX	2023-04-19 11:38:58.584064	What is the Deltacron variant?
+RW_479	20230419113840-RnGTChX	2023-04-19 11:40:08.779208	Well, Deltacron is a recombinant lineage comprised of Delta and Omicron.
+RW_480	20230419113840-RnGTChX	2023-04-19 11:40:25.837319	It wasn't a question, though.
+RW_481	20230419113840-RnGTChX	2023-04-19 11:41:57.259277	What is the currently most prevalent lineage in Berlin?
+RW_482	20230419113840-RnGTChX	2023-04-19 11:42:50.156544	and the second most prevalent lineage?
+RW_484	20230419115409-UuubqwJ	2023-04-19 11:54:25.642972	What can you answer?
+RW_485	20230419115409-UuubqwJ	2023-04-19 11:54:59.145568	Are you able to answer anything?
+RW_486	20230419120025-BtpvbHu	2023-04-19 12:00:56.362285	Can you explain to me the mutations that make the virus more deadly, and which variant is currently the deadliest today
+RW_487	20230419120025-BtpvbHu	2023-04-19 12:01:09.025672	Which variant is currently the most dangerous today
+RW_488	20230419120025-BtpvbHu	2023-04-19 12:01:20.767399	XBC 1.1
+RW_490	20230419120025-BtpvbHu	2023-04-19 12:02:12.512492	Is XBC a dominant strain
+RW_491	20230419120025-BtpvbHu	2023-04-19 12:02:23.219085	What is the XBC variant
+RW_493	20230419120025-BtpvbHu	2023-04-19 12:02:54.899209	Is XBB 1.16 more lethal
+RW_494	20230419120715-iGnwFzJ	2023-04-19 12:11:37.430657	What is the Covid wastewater level in Boston
+RW_496	20230419122755-SNRFXFH	2023-04-19 12:28:53.705540	What are the 5 variants with the highest lower confidence interval from collection 24? 
+RW_497	20230419123346-wajmoTM	2023-04-19 12:34:14.395735	What state submits it’s sequences the fastest in the last 6 months?
+RW_498	20230419123412-hbfrpUk	2023-04-19 12:34:21.777147	Tell me about FK.1.1
+RW_499	20230419123346-wajmoTM	2023-04-19 12:34:29.769646	What is the average submission time from testing date?
+RW_500	20230419123412-hbfrpUk	2023-04-19 12:34:40.906653	Tell me about variant CH1.1
+RW_501	20230419123346-wajmoTM	2023-04-19 12:34:49.098157	How many samples have been submitted in March 2023?
+RW_503	20230419123346-wajmoTM	2023-04-19 12:35:13.428523	Just in march? That seems high
+RW_504	20230419123449-etlQvyv	2023-04-19 12:35:38.290854	Can you update the mutation of the spike that could potentially affect the antibody neutralization?
+RW_505	20230419123449-etlQvyv	2023-04-19 12:36:17.855128	What is the BA.2 and BA.5 difference?
+RW_509	20230419123412-hbfrpUk	2023-04-19 12:39:01.644161	What is the count of sequences matching NSP3 A242T, NSP6 L260F, NSP8 N118S, Spike D215G, Spike Q613H?
+RW_510	20230419123412-hbfrpUk	2023-04-19 12:39:20.103633	Provide a count of samples containing Spike D215G, Spike Q613H
+RW_511	20230419123412-hbfrpUk	2023-04-19 12:39:59.931683	Which countries uploadeds sequences containing Spike D215G?
+RW_512	20230419124013-ywDUIbA	2023-04-19 12:40:28.091838	First XBB.1.16 sequence
+RW_513	20230419124013-ywDUIbA	2023-04-19 12:40:39.740065	In which country?
+RW_514	20230419123412-hbfrpUk	2023-04-19 12:40:48.226102	How many sequences have S:D215G and S:Q613H? 
+RW_515	20230419124013-ywDUIbA	2023-04-19 12:40:54.688546	In which country was the first XBB.1.16 sequence found?
+RW_516	20230419124013-ywDUIbA	2023-04-19 12:41:11.577569	XBB.1.16 sequences by country
+RW_517	20230419124013-ywDUIbA	2023-04-19 12:41:44.245385	sequences from April 2023 per country
+RW_518	20230419124013-ywDUIbA	2023-04-19 12:42:17.528567	sequences submitted/released in April 2023 per country
+RW_526	20230419125334-OqACngY	2023-04-19 12:54:10.210097	When was Omicron first detected?
+RW_528	20230419125334-OqACngY	2023-04-19 12:55:11.592408	Is it realistic that Omicron was detected on 2020-01-05
+RW_529	20230419125334-OqACngY	2023-04-19 12:55:30.265800	When was the first publication describing Omicron?
+RW_530	20230419125334-OqACngY	2023-04-19 12:56:21.771868	What SQL query can show me the earliest date that Omicron was detected.
+RW_531	20230419125707-hwtSkqL	2023-04-19 12:57:59.494311	What is the current dominant Covid variant in Switzerland? 
+RW_532	20230419125707-hwtSkqL	2023-04-19 13:00:09.127202	Is B.1.1.7 more contagious than previous variants? 
+RW_533	20230419130205-bidszhG	2023-04-19 13:02:47.988210	CH.1.1 What is the change in the proportion of the pedigree in the last month?
+RW_534	20230419130205-bidszhG	2023-04-19 13:03:07.030754	What is the change in the proportion of pedigree CH.1.1 in the last month?
+RW_535	20230419130205-bidszhG	2023-04-19 13:03:46.159879	How has the proportion of COVID-19 variant CH.1.1 changed in the last month?
+RW_536	20230419130205-bidszhG	2023-04-19 13:04:57.656229	Which five variants accounted for the most in the last two months
+RW_537	20230419130305-FfhQYUt	2023-04-19 13:05:00.766125	Hi. ich möchte gerne wissen, ob es Impfstoffe gibt gegen die XBB-Varianten? welche? 
+RW_538	20230419130205-bidszhG	2023-04-19 13:06:49.856540	What mutation accounts for the most in CH.1.1
+RW_539	20230419130205-bidszhG	2023-04-19 13:08:10.000294	What is the current proportion of the mutation S494P?
+RW_540	20230419130205-bidszhG	2023-04-19 13:08:23.248000	What is the current proportion of T478R mutation?
+RW_541	20230419131500-HNtfpRL	2023-04-19 13:15:47.114267	What is the latest variant?
+RW_542	20230419131500-HNtfpRL	2023-04-19 13:16:09.643786	What’s the newest variant?
+RW_543	20230419131500-HNtfpRL	2023-04-19 13:16:50.834345	I give up. 
+RW_544	20230419131736-MToCZEo	2023-04-19 13:17:56.236791	what variant is circulating in Ontario right now?
+RW_545	20230419132251-ysuLfvH	2023-04-19 13:23:45.871553	Which of the leading variants have N679K?
+RW_546	20230419132251-ysuLfvH	2023-04-19 13:25:24.469283	Show me omicron variants with spike mutation N679K
+RW_547	20230419132251-ysuLfvH	2023-04-19 13:25:54.269141	Why is that?
+RW_548	20230419132251-ysuLfvH	2023-04-19 13:26:34.403874	what mutations has XBC1.6 have?
+RW_549	20230419132251-ysuLfvH	2023-04-19 13:27:45.180617	what is the leading variant in South Australia at the moment.
+RW_550	20230419132251-ysuLfvH	2023-04-19 13:30:31.613614	can you show me the percentage of amino acids at position 613 in Australia 
+RW_551	20230419132251-ysuLfvH	2023-04-19 13:31:45.316041	What mutations has XBB1.16.1 have
+RW_552	20230419133116-GPhfsvn	2023-04-19 13:31:51.360806	Which is the most recent variant of concern`?
+RW_553	20230419133116-GPhfsvn	2023-04-19 13:32:15.439071	how many have been infected by covid in Sweden?
+RW_556	20230419133116-GPhfsvn	2023-04-19 13:33:12.825644	Do I need to ask about specific lineages?
+RW_557	20230419133116-GPhfsvn	2023-04-19 13:33:35.792719	List all covid lineages
+RW_558	20230419133116-GPhfsvn	2023-04-19 13:34:10.109309	Which is currently the most frequent one in India?
+RW_559	20230419133407-monEmIj	2023-04-19 13:34:21.274387	What is currently the most common variant in Wisconsin?
+RW_560	20230419132251-ysuLfvH	2023-04-19 13:34:32.687976	What amino acid mutations are in XBC1.6
+RW_561	20230419133116-GPhfsvn	2023-04-19 13:34:50.097424	Which is the most frequent one in Sweden?
+RW_562	20230419133407-monEmIj	2023-04-19 13:35:09.726689	What is the most common variant in Southern Australia from April first 2023 onwards? 
+RW_563	20230419133116-GPhfsvn	2023-04-19 13:35:09.887761	Which is currently the most frequent one in Sweden?
+RW_564	20230419133116-GPhfsvn	2023-04-19 13:35:53.532643	List all lineages in Sweden and their frequencies
+RW_565	20230419132251-ysuLfvH	2023-04-19 13:36:22.565208	What amino acid mutations are in XBC.1.6
+RW_566	20230419133116-GPhfsvn	2023-04-19 13:36:45.388165	List all lineages in Sweden and their frequencies in descending order
+RW_567	20230419133407-monEmIj	2023-04-19 13:37:03.661154	What is the most common variant submitted from Victoria Australia since April 1 2023?
+RW_568	20230419133407-monEmIj	2023-04-19 13:37:40.053713	What are all of the variants and their count, for variants submitted from Victoria Australia since April 1 2023? 
+RW_569	20230419133116-GPhfsvn	2023-04-19 13:37:58.557929	List all lineages in Sweden and their first recorded date and frequencies in descending order
+RW_570	20230419132251-ysuLfvH	2023-04-19 13:38:01.070266	What amino acid mutations are different between delta and XBC
+RW_571	20230419133407-monEmIj	2023-04-19 13:38:32.181797	What are the 5 most common variants submitted from Victoria Australia since March 1 2023? 
+RW_572	20230419133854-xSoRmXA	2023-04-19 13:39:14.468857	Voitko antaa taulukon kaikista suomea koskevista sekvensoinneista esimerkiksi päivän tai viikon tarkkuudella 
+RW_573	20230419132251-ysuLfvH	2023-04-19 13:40:13.361562	What amino acid mutations are in BQ.1.2
+RW_574	20230419134123-boCKipB	2023-04-19 13:41:51.148075	What are the 5 most common variants submitted from Victoria Australia since March 1 2023? 
+RW_575	20230419134514-laUwwcF	2023-04-19 13:45:23.177988	What is the delta variant?
+RW_576	20230419132251-ysuLfvH	2023-04-19 13:45:37.016847	What are the top 5 lineages in South Australia 
+RW_577	20230419134514-laUwwcF	2023-04-19 13:45:58.110063	What are some questions that you can answer?
+RW_578	20230419134514-laUwwcF	2023-04-19 13:46:20.040596	What does LAPIS stand for?
+RW_579	20230419134514-laUwwcF	2023-04-19 13:46:35.771418	How many records are in the database?
+RW_580	20230419134514-laUwwcF	2023-04-19 13:47:09.832449	What is the original sequence?
+RW_581	20230419134514-laUwwcF	2023-04-19 13:47:29.117503	What is the metadata for the original sequence?
+RW_583	20230419140754-IJLBdRw	2023-04-19 14:08:34.975580	What is the latest waste water data for Portland Maine?
+RW_584	20230419141119-aEKQGlm	2023-04-19 14:11:47.629795	Xbb116 in Switzerland?
+RW_585	20230419141119-aEKQGlm	2023-04-19 14:12:19.497968	Date?
+RW_586	20230419141119-aEKQGlm	2023-04-19 14:12:31.391497	When?
+RW_587	20230419141119-aEKQGlm	2023-04-19 14:13:42.972914	Xbb in Switzerland?
+RW_588	20230419141119-aEKQGlm	2023-04-19 14:14:14.412092	Xbb15 Switzerland
+RW_590	20230419141119-aEKQGlm	2023-04-19 14:16:12.712989	Thank you.
+RW_591	20230419142022-GjWYJmb	2023-04-19 14:20:31.143971	Can you answer any questions?
+RW_592	20230419142406-ikpcyLl	2023-04-19 14:24:37.799174	What is the next dominant covid variant in the us
+RW_593	20230419142406-ikpcyLl	2023-04-19 14:25:49.434620	What is current circulating sars-cov-2 variant in the world?
+RW_594	20230419143410-PoBsHMu	2023-04-19 14:34:30.486826	Who are you?
+RW_597	20230419144607-hlnhSLd	2023-04-19 14:46:32.969752	"What is 
+
+
+
+
+
+
+
+XBB.1?
+
+"
+RW_598	20230419144607-hlnhSLd	2023-04-19 14:46:52.368777	What is variant XBB.1?
+RW_599	20230419144607-hlnhSLd	2023-04-19 14:47:56.627144	What is variant omicron?
+RW_600	20230419144851-DycPKQq	2023-04-19 14:49:19.993192	Explaing covid deaths evolution in Finland
+RW_601	20230419145225-alFuPfv	2023-04-19 14:52:36.175805	What is going on with variants in Germany?
+RW_602	20230419152631-QhXPfcv	2023-04-19 15:26:44.807826	Should I use the GISAID or INSDC version of the data?
+RW_603	20230419154333-oCmFFDL	2023-04-19 15:43:37.612722	Hi
+RW_604	20230419154333-oCmFFDL	2023-04-19 15:43:54.616283	What is the COVID situation in Ecuador
+RW_605	20230419154333-oCmFFDL	2023-04-19 15:44:15.034812	tell me about XBB.1.16
+RW_606	20230419154820-xVBrHUk	2023-04-19 15:48:46.652068	What are the top 5 variants in circulation in Brazil by state?
+RW_607	20230419154852-tibzhET	2023-04-19 15:49:11.542927	Quale è la variante con inserzione nella Spike 248
+RW_608	20230419154820-xVBrHUk	2023-04-19 15:49:16.256573	What are the top five in Brazil right now?
+RW_609	20230419154820-xVBrHUk	2023-04-19 15:49:39.118456	What are the top 5 variants in circulation in Brazil?
+RW_610	20230419154852-tibzhET	2023-04-19 15:49:47.229858	Bq.1.37
+RW_611	20230419154820-xVBrHUk	2023-04-19 15:50:02.011856	What are the top 5 variants in circulation in Brazil recently?
+RW_612	20230419154852-tibzhET	2023-04-19 15:50:16.581287	What kind of insertion in bq.1.1.37
+RW_613	20230419155056-FtvFWoA	2023-04-19 15:51:18.707430	What mutations are present in BA.1.2
+RW_615	20230419160058-lwCRAvY	2023-04-19 16:01:26.458955	what is the current most common variant?
+RW_616	20230419160058-lwCRAvY	2023-04-19 16:01:43.806997	What variants are circulating in California?
+RW_617	20230419160058-lwCRAvY	2023-04-19 16:02:21.283117	What variants are circulating in California, sorted by case count?
+RW_618	20230419160058-lwCRAvY	2023-04-19 16:03:09.055986	How many XBB.1.16 samples are in the US?
+RW_619	20230419160058-lwCRAvY	2023-04-19 16:03:28.265285	How many XBB.1.16 samples are in the world?
+RW_620	20230419160058-lwCRAvY	2023-04-19 16:03:51.635593	How many XBB.1.16 samples are in each country?
+RW_621	20230419160058-lwCRAvY	2023-04-19 16:04:29.748493	how many different variants are in the database?
+RW_622	20230419160058-lwCRAvY	2023-04-19 16:05:00.051090	Count the number of unique vartiants in the database
+RW_623	20230419160058-lwCRAvY	2023-04-19 16:05:28.389926	How many lineages are there?
+RW_624	20230419160058-lwCRAvY	2023-04-19 16:06:08.011816	What is the most common lineage in the database?
+RW_625	20230419160058-lwCRAvY	2023-04-19 16:06:42.218991	What mutations differentiate XBB.1.5 and XBB.1.16?
+RW_626	20230419161638-esbeBwM	2023-04-19 16:17:06.854796	"Write me a paragraph about ""Hello world!"" programs"
+RW_627	20230419161638-esbeBwM	2023-04-19 16:17:20.184794	What are the new variants in the US? 
+RW_628	20230419161638-esbeBwM	2023-04-19 16:18:38.926522	What are the most common variants in the US over the last two months? 
+RW_629	20230419161638-esbeBwM	2023-04-19 16:19:06.767557	Can you show me the SQL query? 
+RW_630	20230419162210-TJFEJAU	2023-04-19 16:22:27.092120	What is the most common variant in the USA now?
+RW_632	20230419162210-TJFEJAU	2023-04-19 16:23:30.628290	Number of sequences in the state of minnesota
+RW_633	20230419161638-esbeBwM	2023-04-19 16:31:02.497168	What are the most dominant lineages in the US over the last two months? 
+RW_635	20230419161638-esbeBwM	2023-04-19 16:32:36.160857	Which are the most common variants this year? 
+RW_637	20230419163316-iBlnyqa	2023-04-19 16:34:32.336077	Which uniquely mutations are present in BQ.1.1.37?
+RW_638	20230419163316-iBlnyqa	2023-04-19 16:35:30.628740	Uniquely mutations present in BA.2
+RW_640	20230419164303-Oazrphx	2023-04-19 16:43:20.476453	What's the most serious variant right now?
+RW_641	20230419164303-Oazrphx	2023-04-19 16:43:38.603545	What is the fastest growing variant right now?
+RW_642	20230419164303-Oazrphx	2023-04-19 16:44:21.549138	What's the most common variant in the us right now?
+RW_643	20230419170221-LSSYQsr	2023-04-19 17:02:34.933733	What is the most common variant in washington state?
+RW_644	20230419170221-LSSYQsr	2023-04-19 17:03:07.791603	What is the most common variant in washington state in samples collected after March 1st, 2023
+RW_645	20230419170439-UNCbwVU	2023-04-19 17:05:31.530773	What are the most common variant lineages over the last 6 weeks?
+RW_646	20230419170439-UNCbwVU	2023-04-19 17:07:09.162915	Can you group lineages in that list so that they have at most one period character?
+RW_647	20230419170439-UNCbwVU	2023-04-19 17:07:41.358544	What sublineages are in XBB.1 in the last 6 weeks?
+RW_648	20230419170725-fJeBpEg	2023-04-19 17:07:42.056211	Tell me about SARS-CoV-2 variants in Utah
+RW_650	20230419171428-OHtwjOY	2023-04-19 17:14:55.606075	What are the signature mutations of FK.1 ?
+RW_651	20230419171428-OHtwjOY	2023-04-19 17:15:24.637630	what are the signature mutations of XBB.1.16 ?
+RW_652	20230419171428-OHtwjOY	2023-04-19 17:15:35.187150	What is FK.1 ?
+RW_653	20230419172626-cEjhueh	2023-04-19 17:26:45.814890	What variant is circulating in the zip code 77083?
+RW_654	20230419172626-cEjhueh	2023-04-19 17:27:41.086011	What variant is circulating in Houston at the moment?
+RW_655	20230419173541-mnxLgVw	2023-04-19 17:35:47.527487	hello
+RW_656	20230419173541-mnxLgVw	2023-04-19 17:36:26.898160	Is severe long-lasting nasal congestion a sign of covid?
+RW_657	20230419175429-PQwarbW	2023-04-19 17:54:49.780547	What is the best diagnostic mutation for xbb
+RW_658	20230419175429-PQwarbW	2023-04-19 17:55:14.676952	Can you give me diagnostic mutations of a lineage
+RW_659	20230419175429-PQwarbW	2023-04-19 17:55:45.774782	What lineage is increasing in Canada in the last couple of weeks
+RW_660	20230419170221-LSSYQsr	2023-04-19 18:01:04.843464	what proportion of samples in the US since April 1st 2023 are XBB.1.5?
+RW_661	20230419182053-XLsacEy	2023-04-19 18:21:15.932298	What lineages are circulating in the US at greater than 20% frequency?
+RW_662	20230419184758-FYrkVsP	2023-04-19 18:49:05.154025	what variants are curently in dunedin new zealand
+RW_663	20230419184758-FYrkVsP	2023-04-19 18:50:12.985645	waht vriants ar in otgo new zealand
+RW_664	20230419184758-FYrkVsP	2023-04-19 18:50:35.445249	what varaints are in otago new zealand
+RW_665	20230419185549-oZelRdA	2023-04-19 18:56:29.037239	Could you give me the number of sequences done in Ireland within the last 4 weeks?
+RW_666	20230419185549-oZelRdA	2023-04-19 18:58:09.979817	How many sequences does Ireland have per week?
+RW_667	20230419185549-oZelRdA	2023-04-19 19:00:06.466855	What is the dominant variant in Ireland?
+RW_668	20230419185549-oZelRdA	2023-04-19 19:00:55.306065	Was XBB.1.16 found in Ireland?
+RW_669	20230419190704-WLIawYI	2023-04-19 19:07:58.684616	Which variants are dominant in Zürich ?
+RW_670	20230419190704-WLIawYI	2023-04-19 19:09:42.549509	What is special about variant AY.43?
+RW_671	20230419190704-WLIawYI	2023-04-19 19:10:24.037853	Is AY.43 dangerous?
+RW_672	20230419190704-WLIawYI	2023-04-19 19:10:57.435040	Thanks 
+RW_673	20230419202815-JVWJnyi	2023-04-19 20:28:45.408731	Hello GenSpectrum, how many B.1.234 sequences have been reported in Wisconsin?
+RW_674	20230419202815-JVWJnyi	2023-04-19 20:29:16.328351	Thank you. What about XBB.1.31?
+RW_675	20230419202815-JVWJnyi	2023-04-19 20:29:58.833130	How many XBB.1.31 sequences have been reported in Wisconsin?
+RW_676	20230419202815-JVWJnyi	2023-04-19 20:30:18.557498	How many XBB.1.31 sequences have been reported?
+RW_677	20230419202815-JVWJnyi	2023-04-19 20:30:42.049267	How many XBB.1.5 sequences have been reported in Wisconsin?
+RW_678	20230419202815-JVWJnyi	2023-04-19 20:31:14.635532	What variants most commonly have the mutation S:F486A?
+RW_679	20230419202815-JVWJnyi	2023-04-19 20:32:00.210263	What lineages most commonly have the mutation S:Y453F?
+RW_680	20230419211232-EbGygbv	2023-04-19 21:12:54.244630	Please show me the nucleotide sequence of the 20 most common insertions.
+RW_681	20230419211232-EbGygbv	2023-04-19 21:13:16.394893	What are the most common insertions seen in SARS-CoV-2 genomes?
+RW_682	20230419211232-EbGygbv	2023-04-19 21:13:27.895099	What are the most common deletions seen in SARS-CoV-2 genomes?
+RW_683	20230419211350-QWpRiRV	2023-04-19 21:14:00.539874	What are some common insertions seen in SARS-CoV-2 genomes?
+RW_685	20230419213737-wRiHCsi	2023-04-19 21:39:47.620108	Are there any positions in the spike protein where new lineages are introducing convergent mutations?
+RW_686	20230419213737-wRiHCsi	2023-04-19 21:40:17.445344	Are there any positions in the spike protein where new lineages are frequently mutated?
+RW_687	20230419213737-wRiHCsi	2023-04-19 21:40:50.469799	How does XBB.1.5 differ from XBB.1.5.10?
+RW_689	20230419214558-iNreQJh	2023-04-19 21:46:23.720044	Which lineages are dominating the United States? 
+RW_691	20230419214558-iNreQJh	2023-04-19 21:47:02.691359	Are there any saltations seen in XBB.1.16
+RW_692	20230419221631-yeqmKJR	2023-04-19 22:17:04.104618	Current variants in India?
+RW_693	20230419221631-yeqmKJR	2023-04-19 22:17:30.568229	Which is growing in last two weeks?
+RW_694	20230419221631-yeqmKJR	2023-04-19 22:17:55.079568	Is xbb.1.16 growing in India?
+RW_695	20230419221631-yeqmKJR	2023-04-19 22:18:33.317672	When will the Covid pandemic end?
+RW_696	20230419225146-wjQHYmP	2023-04-19 22:52:19.736209	How many sequences has Greece submitted so far?
+RW_697	20230419225146-wjQHYmP	2023-04-19 22:52:29.425325	Per year?
+RW_698	20230419225146-wjQHYmP	2023-04-19 22:52:45.394687	How many sequences has Greece submitted in 2023
+RW_699	20230419225146-wjQHYmP	2023-04-19 22:53:42.704596	What were the top 10 variants in Greece in 2023?
+RW_700	20230419225146-wjQHYmP	2023-04-19 22:57:10.753537	Any recombinants emerged in Greece ?
+RW_701	20230419225146-wjQHYmP	2023-04-19 22:57:40.136011	Which recombinants have shown up in Greece?
+RW_702	20230419225146-wjQHYmP	2023-04-19 22:58:54.748530	What's the submission rate of Greece
+RW_703	20230419230014-ytxKKoO	2023-04-19 23:00:23.729030	What are symptoms of xbb 1.16
+RW_704	20230419230014-ytxKKoO	2023-04-19 23:00:38.619640	What mutations does XBB 1.16 have
+RW_705	20230419225146-wjQHYmP	2023-04-19 23:00:45.669826	Estimated cases per lineage in Greece for 2023
+RW_707	20230419230014-ytxKKoO	2023-04-19 23:01:07.914814	WHICH MUTATION IS MOST DEADLY
+RW_708	20230419225146-wjQHYmP	2023-04-19 23:03:42.872773	And what's the geographical distribution of those 10 lineages?
+RW_709	20230419225146-wjQHYmP	2023-04-19 23:03:50.985951	And what's the geographical distribution of those 10 lineages in Greece
+RW_710	20230419225146-wjQHYmP	2023-04-19 23:04:18.990197	And what's the geographical distribution of XBB.1.5 in Greece
+RW_711	20230419225146-wjQHYmP	2023-04-19 23:05:20.543770	Do you have a regional distribution of BQ.1.1 for Greece in 2023?
+RW_712	20230419225146-wjQHYmP	2023-04-19 23:06:39.333808	What's the relative growth of XBB* lineages in Greece
+RW_713	20230419225146-wjQHYmP	2023-04-19 23:09:20.103536	What's the estimated effective reproduction number in Greece at the moment
+RW_714	20230419232310-pmRjxti	2023-04-19 23:23:23.902672	What does FD.2 stand for?
+RW_715	20230419232310-pmRjxti	2023-04-19 23:23:37.745648	What are the current VOCs circulating?
+RW_716	20230419232310-pmRjxti	2023-04-19 23:25:09.981487	HOw many XBB.1.16s are there
+RW_717	20230419232310-pmRjxti	2023-04-19 23:25:24.812241	How many FD.2 sequences?
+RW_718	20230419232310-pmRjxti	2023-04-19 23:25:53.650147	what is the mutational difference beween XBB.1.9.2 and XBB.1.9.1?
+RW_719	20230420002309-bbfFYoS	2023-04-20 00:23:16.789871	which variant is going to kill me?
+RW_720	20230420002309-bbfFYoS	2023-04-20 00:23:32.955451	That's definitely the right answer. 
+RW_721	20230420002309-bbfFYoS	2023-04-20 00:23:51.510221	Which variants are increasing the most rapidly in Europe?
+RW_722	20230420002309-bbfFYoS	2023-04-20 00:24:14.423362	Can you convert this to frequencies?
+RW_725	20230420011638-EeUOsvQ	2023-04-20 01:18:59.157418	Which are the most common 5 variants are on the rise in Australia?
+RW_726	20230420011833-hTdXzAi	2023-04-20 01:19:08.912133	What proportion of XBB.1.16 surveillance samples have S:H69-?
+RW_727	20230420011638-EeUOsvQ	2023-04-20 01:19:21.637673	Which variants are on the rise in Australia?
+RW_728	20230420011833-hTdXzAi	2023-04-20 01:19:32.996552	How many XBB.1.16 samples have been found in california?
+RW_729	20230420011833-hTdXzAi	2023-04-20 01:19:48.335098	How many XBB.1.16 samples have been found in california surveillance testing?
+RW_730	20230420011833-hTdXzAi	2023-04-20 01:20:07.601792	How many XBB.1.16 samples have been found in the USA, broken down by state?
+RW_731	20230420011833-hTdXzAi	2023-04-20 01:20:27.535396	How many XBB.1.16 samples have been found in the USA, broken down by state and arranged by count, descending?
+RW_732	20230420011638-EeUOsvQ	2023-04-20 01:21:01.167129	How many XBC.1.6 in Australia?
+RW_733	20230420011833-hTdXzAi	2023-04-20 01:21:29.128436	What proportion of XBB.1.16 samples have S:N178D?
+RW_734	20230420011638-EeUOsvQ	2023-04-20 01:21:45.117470	How many XBB.1.16 in Australia?
+RW_735	20230420011833-hTdXzAi	2023-04-20 01:21:49.720451	How many XBB samples are XBB.1.16?
+RW_736	20230420011638-EeUOsvQ	2023-04-20 01:22:08.347246	How many XBB.1.16 in each Australian State?
+RW_739	20230420011833-hTdXzAi	2023-04-20 01:22:46.036736	Where was the first XBB.1.16 in the USA colleceted?
+RW_740	20230420011833-hTdXzAi	2023-04-20 01:22:51.839428	Where was the first XBB.1.16 in the USA collected?
+RW_741	20230420011833-hTdXzAi	2023-04-20 01:23:04.094893	Where was the first XBB.1.16 found in the USA?
+RW_742	20230420011833-hTdXzAi	2023-04-20 01:23:21.362930	Where in the USA was the XBB.1.16 first detected?
+RW_743	20230420011833-hTdXzAi	2023-04-20 01:23:30.673529	What are the defining mutations of XBB.1.16?
+RW_744	20230420014006-ZplPxOw	2023-04-20 01:40:30.626720	What is the newest SARS-CoV-2 VOC in India?
+RW_745	20230420015731-RJqrtjo	2023-04-20 01:58:51.507780	How many sequences were uploaded in England in March 2023?
+RW_746	20230420020132-ZXXFSWx	2023-04-20 02:02:28.982771	How many sequences were uploaded in Dennark in March 2023?
+RW_747	20230420020314-hZhFwMN	2023-04-20 02:03:43.876813	How many sequences were uploaded in Germany in March 2023?
+RW_748	20230420020314-hZhFwMN	2023-04-20 02:04:12.618701	How many sequences were uploaded in India in March 2023?
+RW_749	20230420020314-hZhFwMN	2023-04-20 02:04:57.836909	How many sequences were uploaded in the UK in March 2023?
+RW_750	20230420020314-hZhFwMN	2023-04-20 02:05:38.370955	How many sequences were uploaded in England in March 2023?
+RW_751	20230420020314-hZhFwMN	2023-04-20 02:06:12.130654	How many sequences were uploaded in Scotland in March 2023?
+RW_752	20230420020314-hZhFwMN	2023-04-20 02:06:49.912564	How many sequences were uploaded in England in March 2023?
+RW_753	20230420020314-hZhFwMN	2023-04-20 02:07:50.929332	How many sequences were uploaded in the United Kingdom in March 2023?
+RW_754	20230420020314-hZhFwMN	2023-04-20 02:09:19.188959	How many sequences were uploaded in the UK in April 2023?
+RW_755	20230420020314-hZhFwMN	2023-04-20 02:10:36.650891	How many sequences were uploaded in German in April
+RW_756	20230420021138-bfLxdjv	2023-04-20 02:12:15.778740	How many sequences were uploaded in Germany in April 2023?
+RW_757	20230420021228-iOaQISt	2023-04-20 02:12:57.541712	How many sequences were uploaded in Germany in April 2023?
+RW_758	20230420021228-iOaQISt	2023-04-20 02:14:05.648755	How many sequences were uploaded in Austria in April 2023?
+RW_759	20230420021228-iOaQISt	2023-04-20 02:14:39.788176	How many sequences were uploaded in Australia in April 2023?
+RW_760	20230420021228-iOaQISt	2023-04-20 02:15:25.825167	Which country uploaded the most sequences in April 2023?
+RW_761	20230420021228-iOaQISt	2023-04-20 02:16:31.857262	How many sequences were uploaded in China in April 2023?
+RW_762	20230420021228-iOaQISt	2023-04-20 02:18:06.761184	Which variants have been sequenced in the UK since March 2023?
+RW_763	20230420022033-jwhprbe	2023-04-20 02:21:13.753434	Which variants have been sequenced in Germany since March 2023?
+RW_764	20230420035806-EWRALfU	2023-04-20 03:58:28.415171	Currently predominant variant in india
+RW_765	20230420035806-EWRALfU	2023-04-20 03:59:37.075280	Characteristics mutations in xbb.1.16
+RW_768	20230420041117-rkmVwdl	2023-04-20 04:12:21.312057	provide a mutation list on XBB.15
+RW_769	20230420041117-rkmVwdl	2023-04-20 04:12:44.738414	provide a mutation list on XBB.1
+RW_770	20230420011638-EeUOsvQ	2023-04-20 05:59:41.486342	<br>
+RW_771	20230420011638-EeUOsvQ	2023-04-20 06:00:11.226336	what colour is XBB.1.16 lineage
+RW_772	20230420061134-tFHHsUa	2023-04-20 06:11:59.832723	Which variant is the most dominant in Europe at the moment?
+RW_773	20230420061134-tFHHsUa	2023-04-20 06:12:32.591083	What is special about the variant BA.2
+RW_774	20230420061134-tFHHsUa	2023-04-20 06:12:53.879694	Is BA.2 immune evasive?
+RW_775	20230420061134-tFHHsUa	2023-04-20 06:13:33.519364	How prevelant is XBB1.5.?
+RW_776	20230420061134-tFHHsUa	2023-04-20 06:14:02.244119	What is the database of this chatbot?
+RW_777	20230420081725-TLQAKBq	2023-04-20 08:19:33.575638	How many positions in the SARS-CoV-2 genome have never been observed to mutate
+RW_778	20230420081926-XyWnPFG	2023-04-20 08:21:13.507386	How many positions in the SARS-CoV-2 genome have never been observed to mutate
+RW_779	20230420083353-fnhoRoX	2023-04-20 08:34:20.566359	where should I go to pick up the latest covid variant?
+RW_780	20230420083353-fnhoRoX	2023-04-20 08:34:48.973672	what is the frequency of XBB.1.16 in Europe?
+RW_781	20230420083443-AKDaVNl	2023-04-20 08:35:23.856228	does xbc.1.6 have any additional mutations of concern?
+RW_782	20230420083443-AKDaVNl	2023-04-20 08:36:53.987756	will xbc.1.6 become dominant in Australia?
+RW_783	20230420083443-AKDaVNl	2023-04-20 08:37:27.521143	what variant is growing the fastest?
+RW_784	20230420083443-AKDaVNl	2023-04-20 08:37:52.224522	will xbb.1.16 become dominant in the US?
+RW_785	20230420083443-AKDaVNl	2023-04-20 08:39:31.057462	how are you?
+RW_786	20230420083443-AKDaVNl	2023-04-20 08:39:45.191111	Is R346T growing?
+RW_790	20230420083443-AKDaVNl	2023-04-20 08:41:10.627990	What is the Re of XBC.1.6
+RW_791	20230420083443-AKDaVNl	2023-04-20 08:41:24.252714	What is the Re of XBB.1.16
+RW_792	20230420091213-HaEZNrQ	2023-04-20 09:12:37.344596	When BA.2 disappear in italy?
+RW_793	20230420091213-HaEZNrQ	2023-04-20 09:13:02.181830	BA.2 in italy
+RW_794	20230420093024-lzWnkwi	2023-04-20 09:32:45.464538	Has any a billionaire suffered or died from coronavirus?
+RW_795	20230420093024-lzWnkwi	2023-04-20 09:33:50.977245	Do you know anyone who is a billionaire and has suffered from coronavirus?
+RW_796	20230420093024-lzWnkwi	2023-04-20 09:34:29.369045	Do rich people get Covid?
+RW_798	20230420093024-lzWnkwi	2023-04-20 09:35:47.935770	How many people in Finland have a Covid infection?
+RW_799	20230420093024-lzWnkwi	2023-04-20 09:36:29.347322	What is the major variant in Finland 
+RW_800	20230420095305-dfJmccZ	2023-04-20 09:53:16.463915	你可以讲中文吗
+RW_801	20230420095305-dfJmccZ	2023-04-20 09:53:25.388864	can you speak chinese
+RW_803	20230420095305-dfJmccZ	2023-04-20 09:53:52.278704	XBB.1.16
+RW_805	20230420104930-lHrIvaI	2023-04-20 10:50:48.370357	What kind of questions can you answer?
+RW_806	20230420105053-cMEnpKp	2023-04-20 10:51:27.431808	Which Covid variants are currently circulating in Switzerland?
+RW_807	20230420104930-lHrIvaI	2023-04-20 10:51:50.967965	Tell me example questions that you can answer!
+RW_809	20230420105053-cMEnpKp	2023-04-20 10:52:34.669106	What percentage of Covid variants in Europe are xbb?
+RW_810	20230420104930-lHrIvaI	2023-04-20 10:53:06.803775	Which lineage has the most submissions?
+RW_811	20230420105053-cMEnpKp	2023-04-20 10:53:07.446143	How frequent is the XBB variant in Europe?
+RW_812	20230420111027-rKgWTfS	2023-04-20 11:11:54.800169	What are the most common recurrent mutations in sars-cov-2?
+RW_813	20230420111550-TEbPPUF	2023-04-20 11:16:29.950517	What’s the most important mutations observed to date?
+RW_814	20230420111550-TEbPPUF	2023-04-20 11:17:05.771123	tell me about the spike mutation y453f?
+RW_816	20230420120013-YNuFFyH	2023-04-20 12:00:30.656179	can you use chinese?
+RW_817	20230420120013-YNuFFyH	2023-04-20 12:05:26.412788	please give me the number of sequences in china april
+RW_818	20230420125952-cPjmMMk	2023-04-20 13:00:06.873634	这是啥
+RW_819	20230420125952-cPjmMMk	2023-04-20 13:00:38.991946	你是谁
+RW_820	20230420125952-cPjmMMk	2023-04-20 13:01:55.664428	中国最近一月流行的排名前五的变异株
+RW_821	20230420130433-CVMpPsw	2023-04-20 13:04:58.872624	中国最近一月变异株top5
+RW_822	20230420130433-CVMpPsw	2023-04-20 13:06:58.157595	数据来源是哪里
+RW_823	20230420130433-CVMpPsw	2023-04-20 13:08:49.315860	数据为什么这么少
+RW_824	20230420131235-WAicqjf	2023-04-20 13:13:29.370656	xbb.1.16和xbb.1.5相比有哪些不同的突变
+RW_825	20230420131235-WAicqjf	2023-04-20 13:16:37.986185	xbb.1.9.2有哪些突变
+RW_826	20230420131235-WAicqjf	2023-04-20 13:17:09.580237	让我们进一步了解 XBB.1.16。它有哪些突变，首次观察到的时间和地点，随着时间的推移上传了多少序列
+RW_827	20230420131235-WAicqjf	2023-04-20 13:17:48.336857	Let’s find out more about XBB.1.16. Which mutations does it have, when and where was it first observed, how many sequences where uploaded over time
+RW_828	20230420140641-kYryLkf	2023-04-20 14:06:53.896027	XBB
+RW_829	20230420140641-kYryLkf	2023-04-20 14:07:51.014853	What XBB ?
+RW_830	20230420140641-kYryLkf	2023-04-20 14:08:09.471433	Variant XBB
+RW_831	20230420140641-kYryLkf	2023-04-20 14:08:31.150450	Where XBB ?
+RW_832	20230420140641-kYryLkf	2023-04-20 14:11:53.638355	Would you mind giving me the number of sequences per regional from France ?
+RW_833	20230420141222-NlraCQm	2023-04-20 14:12:30.765813	Can you answer anything?
+RW_834	20230420140641-kYryLkf	2023-04-20 14:13:08.514309	Would you mind giving me the number of sequences France ?
+RW_835	20230420140641-kYryLkf	2023-04-20 14:14:03.486253	Would you mind giving me the number of sequences per states from France ?
+RW_836	20230420152703-gnQOjZn	2023-04-20 15:27:29.808107	Sequences from Germany, Austria and Switzerland per month since beginning of pandemic
+RW_837	20230420152703-gnQOjZn	2023-04-20 15:27:45.401495	Sequences from Europe without Germany, Austria and Switzerland per month since beginning of pandemic
+RW_838	20230420152703-gnQOjZn	2023-04-20 15:27:52.051480	Sequences from Europe without Germany, Austria and Switzerland per month
+RW_839	20230420152703-gnQOjZn	2023-04-20 15:27:58.267225	Sequences from Europe without Germany, Austria and Switzerland
+RW_840	20230420152703-gnQOjZn	2023-04-20 15:28:06.079136	Number of Sequences from Europe without Germany, Austria and Switzerland
+RW_841	20230420152703-gnQOjZn	2023-04-20 15:28:13.880717	Number of Sequences from Europe without Germany
+RW_842	20230420152703-gnQOjZn	2023-04-20 15:28:27.388163	Number of Sequences from Europe without neither Germany nor UK
+RW_843	20230420152703-gnQOjZn	2023-04-20 15:28:42.994877	Number of Sequences from Europe and USA
+RW_844	20230420152703-gnQOjZn	2023-04-20 15:28:54.194050	Number of Sequences from neither Europe nor USA
+RW_845	20230420152703-gnQOjZn	2023-04-20 15:29:48.161217	Sequenzen aus Deutschland pro Monat
+RW_847	20230420162212-eFLemEP	2023-04-20 16:23:07.520398	what's the distribution of variants in the united states over the course of 2022 look like?
+RW_848	20230420162212-eFLemEP	2023-04-20 16:23:36.054207	can you plot that over time, grouping as needed to come up with the top 5?
+RW_849	20230420162212-eFLemEP	2023-04-20 16:24:11.759746	can you plot the distribution of the top 5 variants in the united states over the course of 2022?
+RW_850	20230420163417-bDwinbw	2023-04-20 16:34:39.506530	What is the level of XBB.1.16 in Virginia?
+RW_852	20230420163417-bDwinbw	2023-04-20 16:35:18.889550	What is the main variant in the us
+RW_853	20230420163417-bDwinbw	2023-04-20 16:36:08.380143	list variants in Virginia
+RW_854	20230420172906-BRHCabf	2023-04-20 17:29:27.263833	What variants are currently most common in canada?
+RW_855	20230420172906-BRHCabf	2023-04-20 17:29:58.245663	What variants are currently most common in canada over the last 5 months?
+RW_856	20230420172906-BRHCabf	2023-04-20 17:30:20.928947	What is XBB.1.5
+RW_857	20230420172906-BRHCabf	2023-04-20 17:30:41.275671	What mutations are unique to XBB.1.5?
+RW_858	20230420172906-BRHCabf	2023-04-20 17:31:01.043198	Where has XBB .1.5 been observed?
+RW_859	20230420172906-BRHCabf	2023-04-20 17:31:45.399508	Which variants are currently on the rise in canada?
+RW_860	20230420175247-laYoOga	2023-04-20 17:53:10.943884	I want to see the growth advantage that XBB.1.16 has over current common variants.
+RW_861	20230420175247-laYoOga	2023-04-20 17:53:58.015257	I want to see the growth advantage that XBB.1.16 has over XBB.1.5.
+RW_862	20230420185500-FlvUcXA	2023-04-20 18:56:09.232342	what are the 486 mutations and their effect on ace2 binding
+RW_863	20230420185500-FlvUcXA	2023-04-20 18:57:00.887087	S:486P mutation significance
+RW_864	20230420211647-VyBPzfa	2023-04-20 21:17:21.157664	Can you tell me the variants circulating in the province of Manitoba in Canada?
+RW_865	20230420211647-VyBPzfa	2023-04-20 21:17:45.184133	Can you sort this list from highest to lowest?
+RW_866	20230420211647-VyBPzfa	2023-04-20 21:18:25.534869	Can you tell me the variants circulating in the province of Manitoba in Canada and sort the list from highest to lowest?
+RW_867	20230420215828-tTQkBAC	2023-04-20 21:59:02.934798	what is the efficacy of Novavax vaccine against the most recent variants?
+RW_868	20230421022459-fHjqUBg	2023-04-21 02:25:40.556173	ba.5.2.48和BF.7在S基因上的差别
+RW_869	20230421022459-fHjqUBg	2023-04-21 02:26:54.602476	Differences between ba.5.2.48 and BF.7 in the S gene
+RW_870	20230421022459-fHjqUBg	2023-04-21 02:33:58.133134	bf.7在orf1ab上的突变
+RW_871	20230421062423-godtjjx	2023-04-21 06:24:55.993704	What the new offsprings of the XBB.1.16 sublineage adn where are they found?
+RW_872	20230421062423-godtjjx	2023-04-21 06:25:39.305892	what are teh new offsrings of the XBB.1.16 sub-lineage
+RW_873	20230421062423-godtjjx	2023-04-21 06:25:58.892294	what can you answer?
+RW_874	20230421062423-godtjjx	2023-04-21 06:26:37.834994	what is the latest SARS-CoV-2 sub-lineage to be identified
+RW_875	20230421062423-godtjjx	2023-04-21 06:26:46.433210	stupid
+RW_877	20230421062941-WtWNVKz	2023-04-21 06:30:11.021285	current lineages in Alustralia
+RW_878	20230421062941-WtWNVKz	2023-04-21 06:30:49.822313	linages in Australia in 2023
+RW_879	20230421062941-WtWNVKz	2023-04-21 06:31:21.263057	top 10 lineages in Australia in 2023
+RW_880	20230421062941-WtWNVKz	2023-04-21 06:32:01.148470	number of XBC lineages in Australia 
+RW_881	20230421062941-WtWNVKz	2023-04-21 06:32:14.183975	number of XBF lineages in Australia 
+RW_882	20230421062941-WtWNVKz	2023-04-21 06:32:50.688504	what are the most common lineages in 2023
+RW_883	20230421065544-xfHkmhy	2023-04-21 06:56:00.401178	can you answer questions from my boss?
+RW_884	20230421075356-bSQWikZ	2023-04-21 07:55:52.338248	When somebody got infected at 2023-03-08 in Zurich with SARS-CoV-2, whats the most likely variant?
+RW_885	20230421075356-bSQWikZ	2023-04-21 07:57:16.015417	Whats the most likely variant circulating on 2023-03-08 in Zurich?
+RW_886	20230421075356-bSQWikZ	2023-04-21 07:59:24.713182	What are the most circulating variants in region 5 of Switzerland in the beginning of mars 2023?
+RW_887	20230421075356-bSQWikZ	2023-04-21 08:00:54.044050	What are the most circulating variants in Switzerland in mars 2023?
+RW_888	20230421075356-bSQWikZ	2023-04-21 08:02:38.070748	What are the differences between XBB.1.5 and XBB.1.9.1?
+RW_889	20230421132738-cJDTguW	2023-04-21 13:28:03.817821	Hey
+RW_890	20230421132738-cJDTguW	2023-04-21 13:28:26.407497	What is the difference between XBB.1.5 to XBB.1.16?
+RW_892	20230421164826-QfyNJkq	2023-04-21 16:48:49.499980	What are the ten most common variants in Madison Wisconsin since 12/12/22
+RW_893	20230421164826-QfyNJkq	2023-04-21 16:49:15.816385	What are the ten most common variants in Dane County, Wisconsin since 12/12/22?
+RW_894	20230421164826-QfyNJkq	2023-04-21 16:49:43.710300	What are the ten most common variants in Madison Wisconsin since 2020?
+RW_895	20230421164826-QfyNJkq	2023-04-21 16:50:13.071717	What are the most common variants in Victoria Australia since 12/12/22? 
+RW_896	20230421164826-QfyNJkq	2023-04-21 16:51:03.807090	What are the most common 10 variants in Wisconsin since 12/12/2022?
+RW_897	20230421164826-QfyNJkq	2023-04-21 16:51:39.626535	What are the most common variants with S:q493R in the last 6 months in the USA?
+RW_898	20230421164826-QfyNJkq	2023-04-21 16:52:27.512017	What are all of the subvariants of BQ.1?
+RW_899	20230421211457-cMVqxgk	2023-04-21 21:15:22.989534	How often does Ireland upload new sequencing?
+RW_900	20230421211457-cMVqxgk	2023-04-21 21:16:34.768627	Does Ireland submit new sequences regularly?
+RW_901	20230421211826-HDQWzAy	2023-04-21 21:19:09.613375	growth advantage of XBB.1.16* compared with XBB.1.5*
+RW_902	20230421211826-HDQWzAy	2023-04-21 21:20:03.514003	What is the growth advantage of XBB.1.16* compared with XBB.1.5* over last three months in the world?
+RW_903	20230421211826-HDQWzAy	2023-04-21 21:20:38.699444	Proportion of XBB.1.5* in China?
+RW_904	20230421211826-HDQWzAy	2023-04-21 21:20:47.443888	Sorry, I am not able to answer the question.
+RW_905	20230421211826-HDQWzAy	2023-04-21 21:20:53.599633	1
+RW_906	20230421211826-HDQWzAy	2023-04-21 21:21:09.377282	1+1=?
+RW_907	20230421211826-HDQWzAy	2023-04-21 21:21:33.665464	GISAID
+RW_908	20230421211826-HDQWzAy	2023-04-21 21:22:27.377877	the total number of SARS-CoV-2 sequences that were collected in Switzerland and are stored in the LAPIS database
+RW_909	20230421211826-HDQWzAy	2023-04-21 21:22:35.044609	2
+RW_910	20230421211826-HDQWzAy	2023-04-21 21:23:55.193702	What is LAPIS database?
+RW_911	20230421211826-HDQWzAy	2023-04-21 21:24:28.405303	162891
+RW_912	20230421211826-HDQWzAy	2023-04-21 21:24:55.111070	Proportion of XBB.1.5* in Switzerland?
+RW_913	20230421211826-HDQWzAy	2023-04-21 21:28:58.030028	collection 42
+RW_915	20230421211826-HDQWzAy	2023-04-21 21:32:26.972837	When was the first XBB.1.5 submitted?
+RW_916	20230421211826-HDQWzAy	2023-04-21 21:33:00.492747	When was the first XBC.1.6 submitted?
+RW_917	20230421211826-HDQWzAy	2023-04-21 21:33:22.248705	When was the first XBB submitted?
+RW_919	20230421211826-HDQWzAy	2023-04-21 21:34:06.611904	How many sequences were submitted in the last 4 weeks from Switzerland?
+RW_920	20230421211826-HDQWzAy	2023-04-21 21:34:27.189071	How many sequences were submitted in the last 4 weeks from China?
+RW_921	20230421211826-HDQWzAy	2023-04-21 21:34:42.739676	How many sequences were submitted in the last 4 weeks from Germany?
+RW_922	20230421211826-HDQWzAy	2023-04-21 21:35:10.229453	How many sequences were submitted in the last 4 weeks from Europe?
+RW_923	20230421211826-HDQWzAy	2023-04-21 21:35:28.518034	How many sequences were submitted in the last 4 weeks from Switzerland?
+RW_924	20230421211826-HDQWzAy	2023-04-21 21:36:21.597901	Wie viele Sequenzen wurden in den letzten 4 Wochen aus Deutschland eingereicht?
+RW_925	20230421211826-HDQWzAy	2023-04-21 21:37:07.553720	在过去4个星期里，中国提交了多少条序列？
+RW_927	20230421211826-HDQWzAy	2023-04-21 21:38:32.576665	The total number of sequences with mutation S:R346T
+RW_928	20230421211826-HDQWzAy	2023-04-21 21:39:30.219464	I would be most grateful if you could reveal the total number of sequences detected in Australia during the month of June 2022, which exhibit both the S:R346T and S:L452R mutations simultaneously.
+RW_929	20230421211826-HDQWzAy	2023-04-21 21:39:52.247393	the total number of sequences detected in Australia during the month of June 2022, which exhibit both the S:R346T and S:L452R mutations simultaneously
+RW_930	20230421211826-HDQWzAy	2023-04-21 21:41:32.842734	the total number of sequences, which exhibit both the S:R346T and S:L452R mutations simultaneously
+RW_931	20230421211826-HDQWzAy	2023-04-21 21:41:58.449614	the total number of sequences, which exhibit the S:R346T mutation
+RW_932	20230421211826-HDQWzAy	2023-04-21 21:43:30.391713	the total number of sequences detected in Australia during the month of June 2022, which have both the S:R346T and S:L452R mutations simultaneously
+RW_934	20230421211826-HDQWzAy	2023-04-21 21:44:49.317329	Please tell me the most common 10 nucleotide mutations that occur in lineage XBB
+RW_935	20230421211826-HDQWzAy	2023-04-21 21:47:28.156680	Please tell me the most common 10 AA mutations that occur in lineage XBB but are not defining mutations for XBB
+RW_941	20230421220659-qVzqpjk	2023-04-21 22:19:15.018999	What stands for BQ.1.1?
+RW_942	20230421220659-qVzqpjk	2023-04-21 22:22:14.843044	Moin
+RW_943	20230421220659-qVzqpjk	2023-04-21 22:22:23.248001	Guten Tag!
+RW_944	20230421220659-qVzqpjk	2023-04-21 22:23:13.854680	What is LAPIS?
+RW_945	20230421220659-qVzqpjk	2023-04-21 22:24:37.449574	Wie viele XBB.1.16 sequences gibt es in Deutschland?
+RW_946	20230421220659-qVzqpjk	2023-04-21 22:25:01.767477	How many XBB.1.16 sequences are there in Germany?
+RW_947	20230421220659-qVzqpjk	2023-04-21 22:25:56.921794	How many XBB sequences with mutation S:486P are there in Germany?
+RW_948	20230422141338-AHOqBcV	2023-04-22 14:19:19.341735	Wie gut schützt der Spikevax® Bivalent  Original / Omicron BA.1 gegen Arcturus?
+RW_949	20230423062658-ufrrdaS	2023-04-23 06:27:50.365491	what is the prevalence of all recombinant lineages in the last 2 years?
+RW_950	20230423074335-uRaaSRO	2023-04-23 07:43:51.273133	When did Ireland last submit sequences?
+RW_951	20230423083428-lRxSMiJ	2023-04-23 08:34:42.857258	can i get a fasta for sequences here
+RW_953	20230423092916-TEZYlSO	2023-04-23 09:29:57.182032	which mutation has been the most common in the last month?
+RW_954	20230423092916-TEZYlSO	2023-04-23 09:30:38.048273	can you make a list of the 10 most?
+RW_955	20230423102641-EPkHUnE	2023-04-23 10:27:07.836428	What are the fastest growing COVID variants in Ireland at the present time?
+RW_956	20230423102641-EPkHUnE	2023-04-23 10:28:23.414987	Are those all samples since the beginning of the pandemic or recent samples (such as in the past 10 days or past month)? 
+RW_957	20230423102641-EPkHUnE	2023-04-23 10:29:05.905673	What is the period over which those SARS-CoV-2 were collected?
+RW_958	20230423102641-EPkHUnE	2023-04-23 10:29:52.168495	Can you provide the query counts of SARS-CoV-2 samples collected in Ireland over the past 30 days?
+RW_959	20230423102641-EPkHUnE	2023-04-23 10:30:42.143970	Can you provide the query counts of different SARS-CoV-2 variant samples collected in Ireland over the past 30 days?
+RW_960	20230423133631-xmfNKOq	2023-04-23 13:37:19.910129	The lineages prevanlence in Australia
+RW_961	20230423133631-xmfNKOq	2023-04-23 13:38:02.921722	Plot the lineages prevanlence in Australia in the past 6 month
+RW_962	20230423133631-xmfNKOq	2023-04-23 13:38:29.087103	he lineages prevanlence in Australia in the past 6 month
+RW_963	20230423133631-xmfNKOq	2023-04-23 13:39:13.463074	the lineages prevanlence in Australia in the past 6 month
+RW_964	20230423174353-oPPzdcg	2023-04-23 17:44:05.895483	When was the first XBB submitted?
+RW_965	20230423174353-oPPzdcg	2023-04-23 17:44:17.777381	When was the first XBB.1.5 submitted?
+RW_966	20230423174353-oPPzdcg	2023-04-23 17:44:32.786681	When was the first XBB.1 submitted?
+RW_967	20230423174353-oPPzdcg	2023-04-23 17:45:09.883306	When was the first XBB.1.1 submitted?
+RW_968	20230423174353-oPPzdcg	2023-04-23 17:45:53.180014	When was the first XBC submitted?
+RW_969	20230424061457-LzRTsrJ	2023-04-24 06:15:20.572276	introduce the mutation of XBB.1.16
+RW_972	20230424061612-lwuREcv	2023-04-24 06:17:01.756865	How many sequences are collected from China in the past 3 years?
+RW_973	20230424061612-lwuREcv	2023-04-24 06:17:45.259124	No, you should be able to answer it.
+RW_974	20230424062127-wzGaWsk	2023-04-24 06:21:45.614329	is this free?
+RW_975	20230424062127-wzGaWsk	2023-04-24 06:22:22.889882	which AA at 346 Spike protein
+RW_979	20230424062437-WVKcVYo	2023-04-24 06:25:47.579917	How many SARS-CoV-2 genomes have sequenced to date?
+RW_980	20230424062437-WVKcVYo	2023-04-24 06:26:16.178333	Among them how many from China?
+RW_981	20230424062437-WVKcVYo	2023-04-24 06:26:58.317758	How many SARS-CoV-2 genomes have been sequenced in China?
+RW_982	20230424062738-strllhm	2023-04-24 06:27:57.608198	How to download the sequence data
+RW_983	20230424062810-rmdUQPB	2023-04-24 06:28:33.011095	帮我写个新冠突变的双周报
+RW_985	20230424062810-rmdUQPB	2023-04-24 06:29:29.240046	The precent of XBB
+RW_986	20230424062810-rmdUQPB	2023-04-24 06:30:45.911552	can you tell me the most new detection proption of XBB.1.16 
+RW_987	20230424062738-strllhm	2023-04-24 06:31:57.715262	what is xbb.1.16
+RW_988	20230424062738-strllhm	2023-04-24 06:32:57.880047	what are the mutations in xbb.1.16
+RW_989	20230424062738-strllhm	2023-04-24 06:47:32.167609	the mutation specturm of ba.2 
+RW_990	20230424062738-strllhm	2023-04-24 06:47:57.405883	what can you do
+RW_992	20230424062738-strllhm	2023-04-24 06:51:00.070616	What is the most frequently observed lineage in this month in global?
+RW_994	20230424065443-iavjbKX	2023-04-24 06:55:14.580368	what is the top spread mutation
+RW_996	20230424065753-YYBscVf	2023-04-24 06:59:57.885583	what's BF.7.14.6?
+RW_997	20230424065753-YYBscVf	2023-04-24 07:01:36.010450	中国最流行的5个突变体是哪些？
+RW_998	20230424065753-YYBscVf	2023-04-24 07:02:18.409845	XBB.1.16有哪些特征？
+RW_999	20230424065753-YYBscVf	2023-04-24 07:02:38.255258	你能回答哪些问题？
+RW_1000	20230424092847-JEnAQHJ	2023-04-24 09:29:21.151598	mutaiton list of XBB.1.16
+RW_1001	20230424092847-JEnAQHJ	2023-04-24 09:30:33.557380	when did the S：486P first appear?
+RW_1002	20230424100704-OlYJGpz	2023-04-24 10:07:26.364653	rewrite below sentence in persian. من تعیین میکنم که این چیز با چی شروع میشه و با چی تموم میشه.
+RW_1003	20230424100809-yTYyxcL	2023-04-24 10:08:18.605502	ATCG
+RW_1004	20230424100809-yTYyxcL	2023-04-24 10:08:56.501914	how many samples in GSIAD
+RW_1005	20230424100809-yTYyxcL	2023-04-24 10:09:18.401716	how many samples in GISAID
+RW_1006	20230424100900-DObfowX	2023-04-24 10:09:28.610403	how is the variant EG.1 currently developing
+RW_1007	20230424100900-DObfowX	2023-04-24 10:09:44.178613	what do you know about EG.1
+RW_1008	20230424100809-yTYyxcL	2023-04-24 10:09:52.308812	how many sars-cov-2 sequences in GISAID database
+RW_1009	20230424100900-DObfowX	2023-04-24 10:09:56.322378	what do you know?
+RW_1010	20230424102444-WUZlOQK	2023-04-24 10:25:16.975220	What is the most common variant today?
+RW_1011	20230424102444-WUZlOQK	2023-04-24 10:26:17.490792	Please tell me about XBB.1.16
+RW_1012	20230424102444-WUZlOQK	2023-04-24 10:26:38.748814	What is the lineage of XBB.1.16?
+RW_1013	20230424224454-ukLxaEz	2023-04-24 22:45:34.871023	Which SARS-CoV-2 lineages have known Paxlovid resistance mutations?
+RW_1014	20230425031928-zHhCFzd	2023-04-25 03:21:01.590034	where was mutation S:F456L first detected?
+RW_1015	20230425031928-zHhCFzd	2023-04-25 03:21:48.907726	where was the mutation 456L in the spike protein first detected?
+RW_1016	20230425031928-zHhCFzd	2023-04-25 03:22:23.492140	what variants contain spike mutatiom 456L
+RW_1017	20230425031928-zHhCFzd	2023-04-25 03:23:54.639136	what mutations are associated with xbb.1.16
+RW_1018	20230425031928-zHhCFzd	2023-04-25 03:24:19.979898	what mutations are in xbb.1.16
+RW_1019	20230425031928-zHhCFzd	2023-04-25 03:24:37.015418	what mutations are associated with xbb.2.3
+RW_1020	20230425031928-zHhCFzd	2023-04-25 03:24:50.381303	what mutations are associated with xbb.1.5
+RW_1021	20230425042121-eCchrSO	2023-04-25 04:22:00.149696	ｎ日本の流行株は
+RW_1022	20230425042121-eCchrSO	2023-04-25 04:23:00.288455	dominant strain in japan
+RW_1023	20230425042121-eCchrSO	2023-04-25 04:30:22.105007	domoinant strain this month in japan
+RW_1024	20230425054718-ZtIvGPv	2023-04-25 05:49:21.356002	i would like to download, weekly the variants appearing from the 01.01.2023
+RW_1025	20230425054718-ZtIvGPv	2023-04-25 05:50:04.774510	how to download the data from the variant comparison 
+RW_1026	20230425092408-CFlCaqS	2023-04-25 09:24:23.107161	Can you answer anything?
+RW_1027	20230425114835-qwYFjHU	2023-04-25 11:48:49.651908	What is the 21J delta clade ?
+RW_1029	20230425134908-uLZkjth	2023-04-25 13:50:17.873860	Hello,I would like to build a table with the frequency of each lineage in all the countries of the database at different time points. Would that be feasible?
+RW_1030	20230425134908-uLZkjth	2023-04-25 13:51:02.059880	Is it possible to export the proportion of each variant over time for a single country in a CSV format?
+RW_1031	20230425134908-uLZkjth	2023-04-25 13:51:17.690255	Hum... This is not very helpful...
+RW_1032	20230425134908-uLZkjth	2023-04-25 13:51:34.445135	Err that was not a question actually.
+RW_1033	20230425134908-uLZkjth	2023-04-25 13:51:48.023724	This is going nowhere I guess.
+RW_1035	20230425233444-KhzzHHN	2023-04-25 23:34:55.153144	"How can we get ""relative growth advantage values"""
+RW_1036	20230425233444-KhzzHHN	2023-04-25 23:35:09.675452	Why
+RW_1037	20230426010740-NTJkFXr	2023-04-26 01:08:11.890243	please tell me the sequence accession number of reference genome of sars-cov-2
+RW_1038	20230426041805-Qulrvoc	2023-04-26 04:19:04.974957	please mention all types of voc, voi, and vum of SARS-CoV-2!
+RW_1039	20230426041805-Qulrvoc	2023-04-26 04:20:13.080594	what is VOC of COVID-19?
+RW_1040	20230426130858-zOYJOlF	2023-04-26 13:09:23.520936	compare the growth advantage of XBB.1, XBB.1.5 and XBB.1.16
+RW_1041	20230426130858-zOYJOlF	2023-04-26 13:09:40.483957	the growth advantage of XBB.1.16
+RW_1042	20230426163213-CvDWasu	2023-04-26 16:32:41.149737	Is there a link between covid and alzheimer's?
+RW_1043	20230426163213-CvDWasu	2023-04-26 16:33:20.855712	What is the most recent variant?
+RW_1044	20230427015730-qHjkCJP	2023-04-27 01:58:01.031449	can you gibe me a link on cov-spectrun that shows all the deatils about the XBB.2.3
+RW_1045	20230427015730-qHjkCJP	2023-04-27 01:58:45.765668	Can I have details about the XBB.2.3 sub-lienage
+RW_1046	20230427015730-qHjkCJP	2023-04-27 01:59:29.016711	what are the mutations found in the XBB.2.3 sub-lineage
+RW_1047	20230427015730-qHjkCJP	2023-04-27 01:59:49.405406	this is the most stupid chat!!!!!!!!
+RW_1048	20230427104817-tYfrYeb	2023-04-27 10:48:43.416508	what are the defining mutations of xbb.2.3.1
+RW_1049	20230427104817-tYfrYeb	2023-04-27 10:48:58.770782	what is xbb.2.3.1
+RW_1050	20230427104817-tYfrYeb	2023-04-27 10:49:16.196291	how many cases of xbb.2
+RW_1051	20230427104817-tYfrYeb	2023-04-27 10:50:11.773110	what is the dominating variant in australia
+RW_1052	20230427104817-tYfrYeb	2023-04-27 10:50:49.621646	which countries have xbb.2.3.1
+RW_1053	20230427105156-LCXwhPX	2023-04-27 10:52:19.440165	what's the worst virus variant out there at the moment?
+RW_1054	20230427105156-LCXwhPX	2023-04-27 10:53:23.203636	what is the fastest growing variant in the world right now?
+RW_1055	20230427143340-VczmHrU	2023-04-27 14:34:12.496426	Which are the most common 5 lineages in the last two months in Spain?
+RW_1056	20230427143340-VczmHrU	2023-04-27 14:35:37.497658	How many sequences do we have per month this year?
+RW_1057	20230427143340-VczmHrU	2023-04-27 14:37:31.231055	Which amino acid mutations are present in > 25% of XBB.1.16? Please sort by the proportion
+RW_1063	20230427163416-FFLWhER	2023-04-27 16:34:28.705711	FD.2 mutations in spike
+RW_1064	20230427163416-FFLWhER	2023-04-27 16:34:40.266624	FD.2
+RW_1065	20230427163416-FFLWhER	2023-04-27 16:34:58.141840	what are the spike mutations for FD.2*
+RW_1066	20230427163416-FFLWhER	2023-04-27 16:35:14.333248	where is FD.2 found
+RW_1069	20230430122636-CJEdPto	2023-04-30 12:26:47.738670	Can you answer anything?
+RW_1071	20230502155124-mVEfyEw	2023-05-02 15:54:33.796047	I am looking into the list of mutations that might impact ACE2 affinity across different genetic backgrounds. Can you suggest the mutations on the RBD (S) that meet this criteria? For each of them, give the antibodies that might be escaped if any by this mutation
+RW_1072	20230502155613-LgnANqf	2023-05-02 15:56:31.065461	List all mutations on RBD that are significant?
+RW_1077	20230503184603-qIAyalb	2023-05-03 18:46:20.081111	Number of sequences with S:456L in XBB
+RW_1078	20230503184603-qIAyalb	2023-05-03 18:46:42.335359	Number of sequences with S:456L in Germany per month
+RW_1079	20230503184603-qIAyalb	2023-05-03 18:47:26.927278	Now give share of sequences that have that mutation per month
+RW_1080	20230503184603-qIAyalb	2023-05-03 18:47:57.000104	"Now give share of sequences that have that mutation per month
+Number of sequences with S:456L in Germany per month"
+RW_1081	20230503184603-qIAyalb	2023-05-03 18:48:26.154968	Proportion of sequences with S:456L in Germany per month
+RW_1082	20230503184938-gwIDPqi	2023-05-03 18:49:55.728358	Number of sequences submitted within 30 days of collection per country
+RW_1083	20230503184938-gwIDPqi	2023-05-03 18:50:15.603712	Number of sequences submitted per country
+RW_1084	20230503184938-gwIDPqi	2023-05-03 18:51:05.687634	Number of sequences collected since March 2023 per country
+RW_1085	20230503184938-gwIDPqi	2023-05-03 18:52:04.064428	number of SARS-CoV-2 samples collected in each country since March 1, 2023. and since April 1 2023
+RW_1086	20230503184938-gwIDPqi	2023-05-03 18:52:31.292685	number of SARS-CoV-2 samples collected in each country since April 1, 2023
+RW_1087	20230504125226-FBBCjFb	2023-05-04 12:53:49.776550	What is the identity and frequency of polymorphisms at spike position 505 (for all time)?
+RW_1088	20230504125226-FBBCjFb	2023-05-04 12:56:05.121808	What is the identity and frequency of mutations at S:505?
+RW_1089	20230504125226-FBBCjFb	2023-05-04 12:56:49.213279	How frequent do mutations occur at site 505 on spike?
+RW_1090	20230505043345-VHhBhSo	2023-05-05 04:34:16.641637	What are the top variants in Taiwan currently?
+RW_1094	20230505112900-XwXPmaH	2023-05-05 11:29:38.221284	What was the number of covid infections yesterday
+RW_1096	20230505112900-XwXPmaH	2023-05-05 11:30:41.132575	Which variants exist today?
+RW_1097	20230505113001-nwygdDo	2023-05-05 11:30:49.405496	How many people died in germany from covid?
+RW_1098	20230505112900-XwXPmaH	2023-05-05 11:31:20.962771	Which variants exist?
+RW_1099	20230505112900-XwXPmaH	2023-05-05 11:31:56.516485	Which variants are extant right now?
+RW_1100	20230505112900-XwXPmaH	2023-05-05 11:32:19.005087	Which variants are extinct?
+RW_1103	20230505115916-dSYncuB	2023-05-05 12:01:45.662054	Which variant was dominant in Bavaria in mid-2022?
+RW_1104	20230505131540-flIFlGT	2023-05-05 13:16:43.511050	In the GISAID open dataset, are there any genomes from minnesota with XBB* background and the following mutations: 21998A, 22000A
+RW_1105	20230505150341-VamZwnR	2023-05-05 15:04:28.086778	What is the most common SARS-CoV-2 variant at the moment?
+RW_1106	20230505150440-TPKTfHi	2023-05-05 15:05:23.766486	What is the percentage of XBB.1.16 among sequences in Ireland?
+RW_1107	20230505150341-VamZwnR	2023-05-05 15:05:46.379355	What is the most recent variant?
+RW_1111	20230505150341-VamZwnR	2023-05-05 15:08:01.056762	What is the most common lineage?
+RW_1112	20230505150341-VamZwnR	2023-05-05 15:09:16.464146	Can you give me a list of lineages, sorted by how common they are?
+RW_1114	20230505151717-sFuYpbn	2023-05-05 15:18:25.684338	Which variant appears most in women?
+RW_1115	20230505151717-sFuYpbn	2023-05-05 15:19:23.857575	Which variant was the most wide-spread in March 2023 in Germany?
+RW_1116	20230505151717-sFuYpbn	2023-05-05 15:20:31.053929	Which variant was the most wide-spread in March 2023 in Berlin, Germany?
+RW_1117	20230505151717-sFuYpbn	2023-05-05 15:21:15.591454	Is there a variant that is more wide-spread in Berlin than in other parts of Germany?
+RW_1121	20230505151717-sFuYpbn	2023-05-05 15:22:06.401787	Is the variant BA.2 more wide-spread in Berlin per 1000 people than in Munich?
+RW_1122	20230505152108-aEobTza	2023-05-05 15:23:03.451735	How much more people over 60 got covid at least once compared to people below 20?
+RW_1123	20230505152108-aEobTza	2023-05-05 15:23:51.689997	What is the most contagious variant of covid?
+RW_1125	20230505162707-uAeKSfs	2023-05-05 16:27:31.842780	Tell me about arcturus
+RW_1126	20230505162707-uAeKSfs	2023-05-05 16:28:28.784537	What about india coronavirus variant of 2023
+RW_1127	20230505162707-uAeKSfs	2023-05-05 16:29:24.197597	Tell me more about XBB:1.16
+RW_1128	20230505162707-uAeKSfs	2023-05-05 16:29:58.440753	XBB:1.16 pink eye
+RW_1129	20230505162707-uAeKSfs	2023-05-05 16:31:19.740563	incidence of pink eye induced by XBB:1.16
+RW_1130	20230505162707-uAeKSfs	2023-05-05 16:31:59.915339	incidence of XBB:1.16 
+RW_1131	20230505162707-uAeKSfs	2023-05-05 16:32:33.920032	time interval ?
+RW_1132	20230505162707-uAeKSfs	2023-05-05 16:33:10.404452	incidence of XBB:1.16  on may 2023
+RW_1133	20230505162707-uAeKSfs	2023-05-05 16:33:46.465388	incidence of XBB:1.16  on april 2023
+RW_1134	20230505162707-uAeKSfs	2023-05-05 16:34:20.224423	incidence of XBB:1.16  on march 2023
+RW_1135	20230505162707-uAeKSfs	2023-05-05 16:35:51.662873	incidence of XBB:1.16  on march 2023 in india
+RW_1136	20230505162707-uAeKSfs	2023-05-05 16:36:27.472929	incidence of XBB:1.16  on march 2023 in usa
+RW_1137	20230505162707-uAeKSfs	2023-05-05 16:36:57.925935	Thank you
+RW_1138	20230505192504-xlLqKoa	2023-05-05 19:25:27.401991	How many sequences in the US in the last 6 months have had a mutation at spike residue 356?
+RW_1139	20230506083814-ttaKpaC	2023-05-06 08:39:13.557920	能够展示每天各种变异株的构成比吗
+RW_1140	20230507074745-AojoZKX	2023-05-07 07:48:27.823219	Ratio of submissions in 2023 and 2022 by country
+RW_1141	20230507074745-AojoZKX	2023-05-07 07:48:44.481443	Fastest growing lineages in China
+RW_1143	20230507222813-YsZGWHJ	2023-05-07 22:28:49.578082	EPI ISL of first XBB.1.16 sequence
+RW_1144	20230507222813-YsZGWHJ	2023-05-07 22:29:05.439368	fasta file of first XBB.1.16 sequence
+RW_1145	20230507222813-YsZGWHJ	2023-05-07 22:30:27.017708	all mutations in the first XBB.1.16 sequence
+RW_1146	20230507222813-YsZGWHJ	2023-05-07 22:31:01.938965	mutations in >90% of XBB.1.16
+RW_1147	20230507222813-YsZGWHJ	2023-05-07 22:32:02.660902	Spike mutations between 1-5% in XBB.1.16*
+RW_1148	20230507222813-YsZGWHJ	2023-05-07 22:32:20.694754	Spike mutations in 1-5% of XBB.1.16
+RW_1149	20230507222813-YsZGWHJ	2023-05-07 22:32:35.961268	mutations in 1-5% of BA.2
+RW_1150	20230507222813-YsZGWHJ	2023-05-07 22:33:04.859309	mutations in less than 5% of BA.2
+RW_1151	20230507225124-ZYtSTrX	2023-05-07 22:52:33.595712	Show me the sequences that have the most nonconsecutive deletions in the spike protein.
+RW_1152	20230507225124-ZYtSTrX	2023-05-07 22:54:45.475404	Show me the amino acid residues in which all three nucleotides have been mutated in at least five different sequences.
+RW_1153	20230507225723-VRvOnxc	2023-05-07 22:58:01.662390	Show me the sequences that have the highest number of C to G nucleotide mutations.
+RW_1154	20230507225723-VRvOnxc	2023-05-07 22:58:40.758592	Show me sequences that have at least five P to R amino acid mutations.
+RW_1155	20230507225723-VRvOnxc	2023-05-07 22:59:22.961357	Show me sequences that have at least one A to K amino acid mutation.
+RW_1157	20230508072452-jevHLbs	2023-05-08 07:25:21.061536	使用中文回答，xbb现在最流行的毒株是哪一代
+RW_1158	20230508072452-jevHLbs	2023-05-08 07:26:07.753890	what is the latest xbb type
+RW_1160	20230508072452-jevHLbs	2023-05-08 07:27:03.419234	is xbb better than ba5
+RW_1162	20230508081054-tdutFZb	2023-05-08 08:11:59.059167	Will getting the another booster shot improves my chances to resist covid?
+RW_1163	20230507222813-YsZGWHJ	2023-05-08 08:54:47.935304	Number of sequences submitted since April per country
+RW_1164	20230508131610-pAyPiLV	2023-05-08 13:16:51.589504	what is the current prevalent variant in Europe?
+RW_1166	20230510053315-jryYOCz	2023-05-10 05:33:43.262750	Servus! Welche Covid-Daten hast du denn?
+RW_1167	20230510053315-jryYOCz	2023-05-10 05:34:35.094363	Hello! Which kind of Covid data do you have?
+RW_1168	20230510092908-UhKZFge	2023-05-10 09:29:20.672155	你好
+RW_1169	20230510135721-xRhhPfq	2023-05-10 13:57:57.948782	What kind of data can you offer?
+RW_1170	20230511061337-VNMlgBK	2023-05-11 06:13:59.546891	Can I use Chinese for this chat?
+RW_1171	20230511061337-VNMlgBK	2023-05-11 06:14:45.196474	How many predicted cases in 3 months for China?
+RW_1173	20230512075416-UPvtOMZ	2023-05-12 07:56:04.784236	Can you plot the number of covid cases with distinction of the different variants in 2022 in bavaria?
+RW_1174	20230512075416-UPvtOMZ	2023-05-12 07:56:43.051846	Can you show me the number of covid cases with distinction of the different variants in 2022 in bavaria?
+RW_1175	20230512075416-UPvtOMZ	2023-05-12 07:57:30.183707	Can you show me the number of covid cases with distinction of the different variants in 2022 in bavaria ordered from largest to smallest?
+RW_1176	20230512075416-UPvtOMZ	2023-05-12 07:58:32.628733	What are the most common covid variants in germany?
+RW_1177	20230512075416-UPvtOMZ	2023-05-12 07:59:11.445241	Why is variant BA.2 the most common covid variant?
+RW_1178	20230512154208-eawHNVs	2023-05-12 15:45:01.904509	It appears the Sequencing Intensity data that you get when exporting cases from Asia does not match with the data plotted in the covSPECTRUM page 
+RW_1179	20230512154208-eawHNVs	2023-05-12 15:45:40.179924	What does that mean?
+RW_1180	20230513033226-RZiQIBp	2023-05-13 03:32:59.399147	What are the most common amino acids at 405?
+RW_1181	20230513033226-RZiQIBp	2023-05-13 03:33:38.637849	What amino acids are mutated at site 405
+RW_1182	20230515165030-DHTniOa	2023-05-15 16:52:02.317502	Which variant is circulated in Guinea
+RW_1183	20230515165030-DHTniOa	2023-05-15 16:52:50.134204	Next
+RW_1184	20230515165030-DHTniOa	2023-05-15 16:53:47.877432	how many sequence is available for Guinea 
+RW_1185	20230515165030-DHTniOa	2023-05-15 16:55:21.807390	Can provide graph to show the evolution of variants in guinea ?
+RW_1186	20230517161334-dGIFdmR	2023-05-17 16:14:01.241034	how to download all nucleotide mutations for consensus sequences from my country
+RW_1187	20230517161334-dGIFdmR	2023-05-17 16:14:58.596321	How many different nucleotide mutations are present in consensus sequences from Luxembourg?
+RW_1188	20230517204342-xaNVKQd	2023-05-17 20:44:25.342265	How many sequences stem from april 2023 in total?
+RW_1189	20230517204342-xaNVKQd	2023-05-17 20:45:28.876842	How many sequences from Switzerland are available for April 2023?
+RW_1190	20230517204342-xaNVKQd	2023-05-17 20:46:35.803584	How many sequences have an author stadler
+RW_1191	20230517204342-xaNVKQd	2023-05-17 20:46:56.600816	"How many sequences have an author name ""Stadler""?"
+RW_1192	20230517204342-xaNVKQd	2023-05-17 20:47:21.966423	"How many sequences have a submitter name ""Beisel""?"
+RW_1193	20230517204342-xaNVKQd	2023-05-17 20:48:20.803438	How many sequences from Switzerland are available for April 2023?
+RW_1194	20230517204342-xaNVKQd	2023-05-17 20:48:47.703667	How many of these sequences stem from hospitalized persons?
+RW_1195	20230519153302-wNQdHiP	2023-05-19 15:33:46.405544	hello are you the famous gpt-4
+RW_1196	20230519153302-wNQdHiP	2023-05-19 15:34:18.525083	how can i use the Medical API 
+RW_1197	20230519153302-wNQdHiP	2023-05-19 15:34:43.100822	DOES THIS WEBSITE PROVIDE api
+RW_1201	20230521151822-FIkPLVI	2023-05-21 15:19:04.292836	what is the relationship between S:496S and S:371F
+RW_1202	20230522120915-djDIljk	2023-05-22 12:09:48.147156	how up to date is the database
+RW_1203	20230522120915-djDIljk	2023-05-22 12:10:50.472024	when are sequences updated?
+RW_1204	20230522123359-mdaeoQn	2023-05-22 12:35:15.034007	when was Alpha first collected 
+RW_1205	20230522123359-mdaeoQn	2023-05-22 12:36:32.719035	when was Beta first collected 
+RW_1206	20230522123359-mdaeoQn	2023-05-22 12:38:55.478815	what pango subclass is AY.4 belong to
+RW_1207	20230522123359-mdaeoQn	2023-05-22 12:39:41.231313	Is AY.4 belong to Delta
