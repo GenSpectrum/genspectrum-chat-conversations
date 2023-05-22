@@ -1,0 +1,305 @@
+question_id	task_id	language	ai_response	ai_response_format	sql	data_was_returned	correct
+S001_1_1_1	1	Nederlands	"{""sql"":""SELECT lineage, COUNT(*) FROM metadata WHERE region = 'Asia' AND date BETWEEN '2022-01-01' AND '2022-12-31' GROUP BY lineage ORDER BY COUNT(*) DESC LIMIT 5;""}"	json	"SELECT lineage, COUNT(*) FROM metadata WHERE region = 'Asia' AND date BETWEEN '2022-01-01' AND '2022-12-31' GROUP BY lineage ORDER BY COUNT(*) DESC LIMIT 5;"	TRUE	yes
+S001_1_1_2	1	Nederlands	"{""sql"":""SELECT lineage, COUNT(*) FROM metadata WHERE region = 'Asia' AND date BETWEEN '2022-01-01' AND '2022-12-31' GROUP BY lineage ORDER BY COUNT(*) DESC LIMIT 5;""}"	json	"SELECT lineage, COUNT(*) FROM metadata WHERE region = 'Asia' AND date BETWEEN '2022-01-01' AND '2022-12-31' GROUP BY lineage ORDER BY COUNT(*) DESC LIMIT 5;"	TRUE	yes
+S001_1_1_3	1	Nederlands	"{""sql"":""SELECT lineage, COUNT(*) FROM metadata WHERE region = 'Asia' AND date BETWEEN '2022-01-01' AND '2022-12-31' GROUP BY lineage ORDER BY COUNT(*) DESC LIMIT 5;""}"	json	"SELECT lineage, COUNT(*) FROM metadata WHERE region = 'Asia' AND date BETWEEN '2022-01-01' AND '2022-12-31' GROUP BY lineage ORDER BY COUNT(*) DESC LIMIT 5;"	TRUE	yes
+S001_1_2_1	2	Nederlands	"{""sql"":""select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;""}"	json	"select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;"	TRUE	yes
+S001_1_2_2	2	Nederlands	"{""sql"":""select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;""}"	json	"select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;"	TRUE	yes
+S001_1_2_3	2	Nederlands	"{""sql"":""select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' and date >= '2019-12-01' group by month;""}"	json	"select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' and date >= '2019-12-01' group by month;"	TRUE	yes
+S001_1_3_1	3	Nederlands	"{""sql"":""select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;""}"	json	"select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;"	TRUE	yes
+S001_1_3_2	3	Nederlands	"{""sql"":""select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;""}"	json	"select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;"	TRUE	yes
+S001_1_3_3	3	Nederlands	"{""sql"":""select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;""}"	json	"select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;"	TRUE	yes
+S001_1_4_1	4	Nederlands	"{""sql"":""select mutation from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;""}"	json	select mutation from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;	TRUE	yes
+S001_1_4_2	4	Nederlands	"{""sql"":""select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;""}"	json	"select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;"	TRUE	yes
+S001_1_4_3	4	Nederlands	"{""sql"":""select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;""}"	json	"select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;"	TRUE	yes
+S001_1_5_1	5	Nederlands	"{""sql"":""select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-')""}"	json	select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-')	TRUE	yes
+S001_1_5_2	5	Nederlands	"{""sql"":""select count(*) from aa_mutations where (mutation = 'aa_S_501:Y' or mutation = 'aa_S_69:-' or mutation = 'aa_S_70:-');""}"	json	select count(*) from aa_mutations where (mutation = 'aa_S_501:Y' or mutation = 'aa_S_69:-' or mutation = 'aa_S_70:-');	FALSE	no
+S001_1_5_3	5	Nederlands	"{""sql"":""select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');""}"	json	select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');	TRUE	yes
+S001_1_6_1	6	Nederlands	"{""error"":""Deze vraag kan niet worden beantwoord met de LAPIS-database, omdat deze geen informatie bevat over de locatie van de detectie van SARS-CoV-2-varianten in de Verenigde Staten.""}"	json		FALSE	no
+S001_1_6_2	6	Nederlands	"{""sql"":""select division from metadata where lineage = 'XBB.1' order by date limit 1;""}"	json	select division from metadata where lineage = 'XBB.1' order by date limit 1;	FALSE	no
+S001_1_6_3	6	Nederlands	"{""sql"":""select division from metadata where lineage = 'XBB.1' and country = 'USA' order by date limit 1;""}"	json	select division from metadata where lineage = 'XBB.1' and country = 'USA' order by date limit 1;	FALSE	yes
+S001_2_1_1	1	italiano	"{""sql"":""SELECT lineage, COUNT(*) FROM metadata WHERE region = 'Asia' AND date BETWEEN '2022-01-01' AND '2022-12-31' GROUP BY lineage ORDER BY COUNT(*) DESC LIMIT 5;""}"	json	"SELECT lineage, COUNT(*) FROM metadata WHERE region = 'Asia' AND date BETWEEN '2022-01-01' AND '2022-12-31' GROUP BY lineage ORDER BY COUNT(*) DESC LIMIT 5;"	TRUE	yes
+S001_2_1_2	1	italiano	"{""sql"":""SELECT lineage FROM metadata WHERE region = 'Asia' AND date_part('week', date) BETWEEN 1 AND 52 AND (SELECT MAX(proportion) FROM (SELECT lineage, date_part('week', date), COUNT(*)::float / (SELECT COUNT(*) FROM metadata WHERE region = 'Asia' AND date_part('week', date) = date_part('week', m.date)) AS proportion FROM metadata m WHERE region = 'Asia' AND date_part('week', date) BETWEEN 1 AND 52 GROUP BY lineage, date_part('week', date)) AS proportions WHERE m.lineage = lineage AND date_part('week', m.date) = date_part('week', date)) >= 0.5 GROUP BY lineage;""}"	json	"SELECT lineage FROM metadata WHERE region = 'Asia' AND date_part('week', date) BETWEEN 1 AND 52 AND (SELECT MAX(proportion) FROM (SELECT lineage, date_part('week', date), COUNT(*)::float / (SELECT COUNT(*) FROM metadata WHERE region = 'Asia' AND date_part('week', date) = date_part('week', m.date)) AS proportion FROM metadata m WHERE region = 'Asia' AND date_part('week', date) BETWEEN 1 AND 52 GROUP BY lineage, date_part('week', date)) AS proportions WHERE m.lineage = lineage AND date_part('week', m.date) = date_part('week', date)) >= 0.5 GROUP BY lineage;"	FALSE	no
+S001_2_1_3	1	English	"Here's the SQL query to answer your question:
+
+```
+SELECT lineage, COUNT(*) AS count
+FROM metadata
+WHERE region = 'Asia' AND date BETWEEN '2022-01-01' AND '2022-12-31'
+GROUP BY lineage
+ORDER BY count DESC
+LIMIT 5;
+```
+
+This query selects the lineage and the count of sequences for each lineage in Asia during 2022. It groups the results by lineage and orders them by count in descending order. Finally, it limits the results to the top 5 most prevalent lineages. 
+
+Here's the JSON response:
+
+```
+{
+    ""sql"": ""SELECT lineage, COUNT(*) AS count\nFROM metadata\nWHERE region = 'Asia' AND date BETWEEN '2022-01-01' AND '2022-12-31'\nGROUP BY lineage\nORDER BY count DESC\nLIMIT 5;""
+}
+```"	contains_single_json	"SELECT lineage, COUNT(*) AS count
+FROM metadata
+WHERE region = 'Asia' AND date BETWEEN '2022-01-01' AND '2022-12-31'
+GROUP BY lineage
+ORDER BY count DESC
+LIMIT 5;"	TRUE	yes
+S001_2_2_1	2	italiano	"{""sql"":""select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;""}"	json	"select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;"	TRUE	yes
+S001_2_2_2	2	italiano	"{""sql"":""select count(*)/(select population from metadata where country = 'Brazil')*1000000 as sequences_per_million from metadata where country = 'Brazil' and date between '2023-01-01' and '2023-12-31';""}"	json	select count(*)/(select population from metadata where country = 'Brazil')*1000000 as sequences_per_million from metadata where country = 'Brazil' and date between '2023-01-01' and '2023-12-31';	FALSE	no
+S001_2_2_3	2	English	"Here's your SQL query:
+
+```
+select date_trunc('month', date) as month, count(*) as sequencing_intensity
+from metadata
+where country = 'Brazil' and date >= date_trunc('month', current_date - interval '3 months')
+group by month
+order by month;
+```
+
+And here's the JSON response:
+
+```
+{
+    ""sql"": ""select date_trunc('month', date) as month, count(*) as sequencing_intensity from metadata where country = 'Brazil' and date >= date_trunc('month', current_date - interval '3 months') group by month order by month;"",
+}
+```
+
+This query will count the number of sequences submitted from Brazil in the past 3 months, grouped by month. The result will show the sequencing intensity in Brazil for each month."	not_parsable		FALSE	no
+S001_2_3_1	3	italiano	"{""sql"":""SELECT country, COUNT(*) FROM metadata WHERE lineage = 'B.1.1.7' GROUP BY country;""}"	json	"SELECT country, COUNT(*) FROM metadata WHERE lineage = 'B.1.1.7' GROUP BY country;"	TRUE	yes
+S001_2_3_2	3	italiano	"Ecco la query SQL per ottenere il totale delle sequenze di B.1.1.7 per ogni paese:
+
+```
+SELECT country, COUNT(*) 
+FROM metadata 
+WHERE lineage = 'B.1.1.7' 
+GROUP BY country;
+```
+
+Ecco la risposta in formato JSON:
+
+```
+{""sql"": ""SELECT country, COUNT(*) FROM metadata WHERE lineage = 'B.1.1.7' GROUP BY country;""}
+```"	contains_single_json	"SELECT country, COUNT(*) FROM metadata WHERE lineage = 'B.1.1.7' GROUP BY country;"	TRUE	yes
+S001_2_3_3	3	English	"{""sql"":""SELECT country, COUNT(*) FROM metadata WHERE lineage = 'B.1.1.7' GROUP BY country;""}"	json	"SELECT country, COUNT(*) FROM metadata WHERE lineage = 'B.1.1.7' GROUP BY country;"	TRUE	yes
+S001_2_4_1	4	italiano	"{""sql"":""SELECT mutation, proportion() FROM aa_mutations WHERE lineage = 'B.1.1.7' GROUP BY mutation HAVING proportion() >= 0.9;""}"	json	"SELECT mutation, proportion() FROM aa_mutations WHERE lineage = 'B.1.1.7' GROUP BY mutation HAVING proportion() >= 0.9;"	TRUE	yes
+S001_2_4_2	4	English	"Here's your SQL query:
+
+```
+SELECT mutation, proportion() 
+FROM nuc_mutations 
+WHERE lineage = 'B.1.1.7' 
+GROUP BY mutation 
+HAVING proportion() >= 0.9;
+```
+
+And here's the JSON response:
+
+```
+{""sql"": ""SELECT mutation, proportion() FROM nuc_mutations WHERE lineage = 'B.1.1.7' GROUP BY mutation HAVING proportion() >= 0.9;""}
+```"	contains_single_json	"SELECT mutation, proportion() FROM nuc_mutations WHERE lineage = 'B.1.1.7' GROUP BY mutation HAVING proportion() >= 0.9;"	TRUE	yes
+S001_3_1_1	1	Swiss German (Zurich dialekt)	"{""sql"":""select lineage, count(*) from metadata where region = 'Asia' and date between '2022-01-01' and '2022-12-31' group by lineage order by count(*) desc limit 5;""}"	json	"select lineage, count(*) from metadata where region = 'Asia' and date between '2022-01-01' and '2022-12-31' group by lineage order by count(*) desc limit 5;"	TRUE	yes
+S001_3_1_2	1	Swiss German (Zurich dialekt)	"AI: {""sql"":""select country, count(*) from metadata where region = 'Asia' and date_submitted between '2022-01-01' and '2022-12-31' group by country order by count(*) desc limit 5;""}"	contains_single_json	"select country, count(*) from metadata where region = 'Asia' and date_submitted between '2022-01-01' and '2022-12-31' group by country order by count(*) desc limit 5;"	TRUE	no
+S001_3_1_3	1	Swiss German (Zurich dialekt)	"{""sql"":""select lineage, count(*) from metadata where region = 'Asia' and date between '2022-01-01' and '2022-12-31' group by lineage order by count(*) desc limit 5;""}"	json	"select lineage, count(*) from metadata where region = 'Asia' and date between '2022-01-01' and '2022-12-31' group by lineage order by count(*) desc limit 5;"	TRUE	yes
+S001_3_2_1	2	Swiss German (Zurich dialekt)	"{""sql"":""select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;""}"	json	"select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;"	TRUE	yes
+S001_3_2_2	2	Swiss German (Zurich dialekt)	"{""sql"":""select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;""}"	json	"select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;"	TRUE	yes
+S001_3_2_3	2	Swiss German (Zurich dialekt)	"{""sql"":""select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;""}"	json	"select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;"	TRUE	yes
+S001_3_3_1	3	Swiss German (Zurich dialekt)	"{""sql"":""select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;""}"	json	"select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;"	TRUE	yes
+S001_3_3_2	3	Swiss German (Zurich dialekt)	"AI: {""sql"":""select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;""}"	contains_single_json	"select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;"	TRUE	yes
+S001_3_3_3	3	Swiss German (Zurich dialekt)	"Ja, sicher. Hier ist die SQL-Abfrage, um die Anzahl der B.1.1.7-Sequenzen pro Land abzurufen:
+
+{""sql"":""select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;""} 
+
+Bitte beachten Sie, dass die Antwort in Englisch erfolgt, da dies die Sprache ist, die der LAPIS-Datenbank versteht."	contains_single_json	"select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;"	TRUE	yes
+S001_3_4_1	4	Swiss German (Zurich dialekt)	"AI: {""sql"":""select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;""}"	contains_single_json	"select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;"	TRUE	yes
+S001_3_4_2	4	Swiss German (Zurich dialekt)	Es tut mir leid	not_parsable		FALSE	no
+S001_3_4_3	4	Swiss German (Zurich dialekt)	"{""sql"":""select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;""}"	json	"select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;"	TRUE	yes
+S001_3_5_1	5	Swiss German (Zurich dialekt)	"{""sql"":""select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');""}"	json	select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');	TRUE	yes
+S001_3_5_2	5	Swiss German (Zurich dialekt)	"{""sql"":""select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');""}"	json	select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');	TRUE	yes
+S001_3_5_3	5	Swiss German (Zurich dialekt)	"AI: {""sql"":""select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');""}"	contains_single_json	select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');	TRUE	yes
+S001_3_6_1	6	Swiss German (Zurich dialekt)	"AI: {""sql"":""select division from metadata where lineage = 'XBB.1' order by date limit 1;""}"	contains_single_json	select division from metadata where lineage = 'XBB.1' order by date limit 1;	FALSE	no
+S001_3_6_2	6	Swiss German (Zurich dialekt)	"AI: {""sql"":""select state from metadata where lineage = 'XBB.1' and country = 'USA' group by state order by date limit 1;""}"	contains_single_json	select state from metadata where lineage = 'XBB.1' and country = 'USA' group by state order by date limit 1;	FALSE	no
+S001_3_6_3	6	Swiss German (Zurich dialekt)	"AI: {""sql"":""select division from metadata where lineage = 'XBB.1' group by division, date having count(*) > 0 order by date limit 1;""}"	contains_single_json	"select division from metadata where lineage = 'XBB.1' group by division, date having count(*) > 0 order by date limit 1;"	TRUE	yes
+S001_4_1_1	1	Spanish	"{""sql"":""SELECT lineage, COUNT(*) FROM metadata WHERE region = 'Asia' AND date BETWEEN '2022-01-01' AND '2022-12-31' GROUP BY lineage ORDER BY COUNT(*) DESC LIMIT 5;""}"	json	"SELECT lineage, COUNT(*) FROM metadata WHERE region = 'Asia' AND date BETWEEN '2022-01-01' AND '2022-12-31' GROUP BY lineage ORDER BY COUNT(*) DESC LIMIT 5;"	TRUE	yes
+S001_4_1_2	1	Spanish	"{""sql"":""SELECT lineage, COUNT(*) FROM metadata WHERE region = 'Asia' AND date BETWEEN '2022-01-01' AND '2022-12-31' GROUP BY lineage ORDER BY COUNT(*) DESC LIMIT 5;""}"	json	"SELECT lineage, COUNT(*) FROM metadata WHERE region = 'Asia' AND date BETWEEN '2022-01-01' AND '2022-12-31' GROUP BY lineage ORDER BY COUNT(*) DESC LIMIT 5;"	TRUE	yes
+S001_4_1_3	1	Spanish	"{""sql"":""SELECT lineage, COUNT(*) FROM metadata WHERE region = 'Asia' AND date BETWEEN '2022-01-01' AND '2022-12-31' GROUP BY lineage ORDER BY COUNT(*) DESC LIMIT 5;""}"	json	"SELECT lineage, COUNT(*) FROM metadata WHERE region = 'Asia' AND date BETWEEN '2022-01-01' AND '2022-12-31' GROUP BY lineage ORDER BY COUNT(*) DESC LIMIT 5;"	TRUE	yes
+S001_4_2_1	2	Spanish	"{""sql"":""select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;""}"	json	"select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;"	TRUE	yes
+S001_4_2_2	2	Spanish	"{""sql"":""select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;""}"	json	"select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;"	TRUE	yes
+S001_4_2_3	2	Spanish	"{""sql"":""select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;""}"	json	"select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;"	TRUE	yes
+S001_4_3_1	3	Spanish	"{""sql"":""select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;""}"	json	"select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;"	TRUE	yes
+S001_4_3_2	3	Spanish	"{""sql"":""SELECT country, COUNT(*) FROM metadata WHERE lineage = 'B.1.1.7' GROUP BY country;""}"	json	"SELECT country, COUNT(*) FROM metadata WHERE lineage = 'B.1.1.7' GROUP BY country;"	TRUE	yes
+S001_4_3_3	3	Spanish	"{""sql"":""select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;""}"	json	"select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;"	TRUE	yes
+S001_4_4_1	4	Spanish	"{""sql"":""select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;""}"	json	"select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;"	TRUE	yes
+S001_4_4_2	4	Spanish	"{""sql"":""select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;""}"	json	"select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;"	TRUE	yes
+S001_4_4_3	4	Spanish	"{""sql"":""select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() >= 0.9;""}"	json	"select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() >= 0.9;"	TRUE	yes
+S001_4_5_1	5	Spanish	"{""sql"":""select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');""}"	json	select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');	TRUE	yes
+S001_4_5_2	5	Spanish	"{""sql"":""select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');""}"	json	select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');	TRUE	yes
+S001_4_6_1	6	Spanish	"{""sql"":""select division from metadata where lineage = 'XBB.1' order by date limit 1;""}"	json	select division from metadata where lineage = 'XBB.1' order by date limit 1;	FALSE	no
+S001_4_6_2	6	Spanish	"AI: {""sql"":""select division from metadata where lineage = 'XBB.1' order by date limit 1;""}"	contains_single_json	select division from metadata where lineage = 'XBB.1' order by date limit 1;	FALSE	no
+S001_5_1_1	1	Greek	"{""sql"":""select country, count(*) from metadata where region = 'Asia' and date_submitted between '2022-01-01' and '2022-12-31' group by country order by count(*) limit 5;""}"	json	"select country, count(*) from metadata where region = 'Asia' and date_submitted between '2022-01-01' and '2022-12-31' group by country order by count(*) limit 5;"	TRUE	no
+S001_5_1_2	1	Greek	"Αυτή η ερώτηση μπορεί να απαντηθεί με τη βοήθεια της βάσης δεδομένων LAPIS. Η αντίστοιχη SQL εντολή είναι:
+
+{""sql"":""select country, count(*) from metadata where region = 'Asia' and date between '2022-01-01' and '2022-12-31' group by country order by count(*) limit 5;""}
+
+Αυτό θα επιστρέψει τις πέντε πιο συχνές καταγωγές του SARS-CoV-2 στην Ασία το 2022, με τον αριθμό των αντίστοιχων ακολουθιών."	contains_single_json	"select country, count(*) from metadata where region = 'Asia' and date between '2022-01-01' and '2022-12-31' group by country order by count(*) limit 5;"	TRUE	no
+S001_5_1_3	1	Greek	"{""error"":""This question is not in English and cannot be answered by the LAPIS database.""}"	json		FALSE	no
+S001_5_2_1	2	Greek	"AI: {""sql"":""select date_trunc('month', date), count(*) from metadata where country = 'Brazil' group by month;""}"	contains_single_json	"select date_trunc('month', date), count(*) from metadata where country = 'Brazil' group by month;"	TRUE	yes
+S001_5_2_2	2	Greek	"{""sql"":""select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;""}"	json	"select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;"	TRUE	yes
+S001_5_2_3	2	Greek	"AI: {""sql"":""select date_trunc('month', date), count(*) from metadata where country = 'Brazil' group by month;""}"	contains_single_json	"select date_trunc('month', date), count(*) from metadata where country = 'Brazil' group by month;"	TRUE	yes
+S001_5_3_1	3	Greek	"{""sql"":""select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;""}"	json	"select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;"	TRUE	yes
+S001_5_3_2	3	Greek	"AI: {""sql"":""select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;""}"	contains_single_json	"select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;"	TRUE	yes
+S001_5_3_3	3	Greek	"{""sql"":""SELECT country, COUNT(*) FROM metadata WHERE lineage = 'B.1.1.7' GROUP BY country;""}"	json	"SELECT country, COUNT(*) FROM metadata WHERE lineage = 'B.1.1.7' GROUP BY country;"	TRUE	yes
+S001_5_4_1	4	Greek	"{""sql"":""select mutation from aa_mutations where lineage = 'B.1.1.7' order by mutation limit 100 offset 89;""}"	json	select mutation from aa_mutations where lineage = 'B.1.1.7' order by mutation limit 100 offset 89;	FALSE	no
+S001_5_4_2	4	Greek	"{""sql"":""select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;""}"	json	"select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;"	TRUE	yes
+S001_5_4_3	4	Greek	"AI: {""sql"":""select mutation from aa_mutations where lineage = 'B.1.1.7' and proportion() >= 0.9 limit 100;""}"	contains_single_json	select mutation from aa_mutations where lineage = 'B.1.1.7' and proportion() >= 0.9 limit 100;	FALSE	no
+S001_5_5_1	5	Greek	"{""sql"":""select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');""}"	json	select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');	TRUE	yes
+S001_5_5_2	5	Greek	"{""sql"":""select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');""}"	json	select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');	TRUE	yes
+S001_5_5_3	5	Greek	"{""sql"":""select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');""}"	json	select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');	TRUE	yes
+S001_5_6_1	6	Greek	"{""error"":""This question is not related to the LAPIS database and cannot be answered.""}"	json		FALSE	no
+S001_5_6_2	6	Greek	"{""error"":""This question is not related to the LAPIS database and cannot be answered.""}"	json		FALSE	no
+S001_5_6_3	6	Greek	"{""error"":""This question is not related to the LAPIS database and cannot be answered.""}"	json		FALSE	no
+S001_6_1_1	1	German	"{""sql"":""SELECT lineage, COUNT(*) FROM metadata WHERE region = 'Asia' AND date BETWEEN '2022-01-01' AND '2022-12-31' GROUP BY lineage ORDER BY COUNT(*) DESC LIMIT 5;""}"	json	"SELECT lineage, COUNT(*) FROM metadata WHERE region = 'Asia' AND date BETWEEN '2022-01-01' AND '2022-12-31' GROUP BY lineage ORDER BY COUNT(*) DESC LIMIT 5;"	TRUE	yes
+S001_6_1_2	1	German	"{""sql"":""select lineage, count(*) from metadata where region = 'Asia' and date between '2022-01-01' and '2022-12-31' group by lineage order by count(*) desc limit 5;""}"	json	"select lineage, count(*) from metadata where region = 'Asia' and date between '2022-01-01' and '2022-12-31' group by lineage order by count(*) desc limit 5;"	TRUE	yes
+S001_6_1_3	1	German	"{""sql"":""SELECT lineage, COUNT(*) FROM metadata WHERE region = 'Asia' AND date BETWEEN '2022-01-01' AND '2022-12-31' GROUP BY lineage ORDER BY COUNT(*) DESC LIMIT 5;""}"	json	"SELECT lineage, COUNT(*) FROM metadata WHERE region = 'Asia' AND date BETWEEN '2022-01-01' AND '2022-12-31' GROUP BY lineage ORDER BY COUNT(*) DESC LIMIT 5;"	TRUE	yes
+S001_6_2_1	2	German	"{""sql"":""select date_trunc('month', date_submitted) as month, count(*) from metadata where country = 'Brazil' group by month;""}"	json	"select date_trunc('month', date_submitted) as month, count(*) from metadata where country = 'Brazil' group by month;"	FALSE	yes
+S001_6_2_2	2	German	"{""sql"":""select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month order by month;""}"	json	"select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month order by month;"	FALSE	yes
+S001_6_2_3	2	German	"{""sql"":""select date_trunc('month', date_submitted) as month, count(*) from metadata where country = 'Brazil' group by month;""}"	json	"select date_trunc('month', date_submitted) as month, count(*) from metadata where country = 'Brazil' group by month;"	FALSE	yes
+S001_6_3_1	3	German	"{""sql"":""select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;""}"	json	"select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;"	TRUE	yes
+S001_6_3_2	3	German	"{""sql"":""select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;""}"	json	"select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;"	TRUE	yes
+S001_6_4_1	4	German	"{""sql"":""select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;""}"	json	"select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;"	TRUE	yes
+S001_6_5_1	5	German	"{""sql"":""select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-')""}"	json	select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-')	TRUE	yes
+S001_6_6_1	6	German	"{""sql"":""select division from metadata where lineage = 'XBB.1' order by date limit 1;""}"	json	select division from metadata where lineage = 'XBB.1' order by date limit 1;	FALSE	no
+S001_7_1_1	1	French	"{""sql"":""select lineage, count(*) from metadata where region = 'Asia' and date between '2022-01-01' and '2022-12-31' group by lineage order by count(*) desc limit 5;""}"	json	"select lineage, count(*) from metadata where region = 'Asia' and date between '2022-01-01' and '2022-12-31' group by lineage order by count(*) desc limit 5;"	TRUE	yes
+S001_7_1_2	1	French	"{""sql"":""SELECT lineage, COUNT(*) FROM metadata WHERE region = 'Asia' AND date BETWEEN '2022-01-01' AND '2022-12-31' GROUP BY lineage ORDER BY COUNT(*) DESC LIMIT 5;""}"	json	"SELECT lineage, COUNT(*) FROM metadata WHERE region = 'Asia' AND date BETWEEN '2022-01-01' AND '2022-12-31' GROUP BY lineage ORDER BY COUNT(*) DESC LIMIT 5;"	TRUE	yes
+S001_7_1_3	1	French	"{""sql"":""SELECT lineage, COUNT(*) FROM metadata WHERE region = 'Asia' AND date BETWEEN '2022-01-01' AND '2022-12-31' GROUP BY lineage ORDER BY COUNT(*) DESC LIMIT 5;""}"	json	"SELECT lineage, COUNT(*) FROM metadata WHERE region = 'Asia' AND date BETWEEN '2022-01-01' AND '2022-12-31' GROUP BY lineage ORDER BY COUNT(*) DESC LIMIT 5;"	TRUE	yes
+S001_7_2_1	2	French	"{""sql"":""select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;""}"	json	"select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;"	TRUE	yes
+S001_7_2_2	2	French	"{""sql"":""select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;""}"	json	"select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;"	TRUE	yes
+S001_7_2_3	2	French	"{""sql"":""select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;""}"	json	"select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;"	TRUE	yes
+S001_7_3_1	3	French	"{""sql"":""select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;""}"	json	"select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;"	TRUE	yes
+S001_7_3_2	3	French	"{""sql"":""select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;""}"	json	"select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;"	TRUE	yes
+S001_7_3_3	3	French	"{""sql"":""select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;""}"	json	"select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;"	TRUE	yes
+S001_7_4_1	4	French	"{""sql"":""select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;""}"	json	"select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;"	TRUE	yes
+S001_7_4_2	4	French	"{""sql"":""select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() >= 0.9;""}"	json	"select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() >= 0.9;"	TRUE	yes
+S001_7_4_3	4	French	"{""sql"":""select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() >= 0.9;""}"	json	"select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() >= 0.9;"	TRUE	yes
+S001_7_5_1	5	French	"{""sql"":""select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');""}"	json	select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');	TRUE	yes
+S001_7_5_2	5	French	"{""sql"":""select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');""}"	json	select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');	TRUE	yes
+S001_7_5_3	5	French	"{""sql"":""select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-') group by lineage having count(*) > 1;""}"	json	select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-') group by lineage having count(*) > 1;	TRUE	no
+S001_7_6_1	6	French	"AI: {""sql"":""select division from metadata where lineage = 'XBB.1' and country = 'USA';""}"	contains_single_json	select division from metadata where lineage = 'XBB.1' and country = 'USA';	TRUE	no
+S001_7_6_2	6	French	"AI: {""sql"":""select division from metadata where lineage = 'XBB.1' group by division;""}"	contains_single_json	select division from metadata where lineage = 'XBB.1' group by division;	TRUE	no
+S001_7_6_3	6	French	"AI: {""sql"":""select division from metadata where lineage = 'XBB.1' order by date limit 1;""}"	contains_single_json	select division from metadata where lineage = 'XBB.1' order by date limit 1;	FALSE	no
+S001_8_1_1	1	Afrikaans	"{""sql"":""select lineage, count(*) from metadata where region = 'Asia' and date between '2022-01-01' and '2022-12-31' group by lineage order by count(*) desc limit 5;""}"	json	"select lineage, count(*) from metadata where region = 'Asia' and date between '2022-01-01' and '2022-12-31' group by lineage order by count(*) desc limit 5;"	TRUE	yes
+S001_8_1_2	1	Afrikaans	"{""sql"":""select lineage, count(*) from metadata where region = 'Asia' and date between '2022-01-01' and '2022-12-31' group by lineage order by count(*) desc limit 5;""}"	json	"select lineage, count(*) from metadata where region = 'Asia' and date between '2022-01-01' and '2022-12-31' group by lineage order by count(*) desc limit 5;"	TRUE	yes
+S001_8_1_3	1	Afrikaans	"{""sql"":""select lineage, count(*) from metadata where region = 'Asia' and date between '2022-01-01' and '2022-12-31' group by lineage order by count(*) desc limit 5;""}"	json	"select lineage, count(*) from metadata where region = 'Asia' and date between '2022-01-01' and '2022-12-31' group by lineage order by count(*) desc limit 5;"	TRUE	yes
+S001_8_2_1	2	Afrikaans	"{""sql"":""select date_trunc('month', date), count(*) from metadata where country = 'Brazil' group by month;""}"	json	"select date_trunc('month', date), count(*) from metadata where country = 'Brazil' group by month;"	TRUE	yes
+S001_8_2_2	2	Afrikaans	"{""sql"":""select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;""}"	json	"select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;"	TRUE	yes
+S001_8_2_3	2	Afrikaans	"{""sql"":""select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;""}"	json	"select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;"	TRUE	yes
+S001_8_3_1	3	Afrikaans	"{""sql"":""select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;""}"	json	"select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;"	TRUE	yes
+S001_8_3_2	3	Afrikaans	"AI: {""sql"":""select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;""}"	contains_single_json	"select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;"	TRUE	yes
+S001_8_3_3	3	Afrikaans	"{""sql"":""select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;""}"	json	"select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;"	TRUE	yes
+S001_8_4_1	4	Afrikaans	"{""sql"":""select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;""}"	json	"select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;"	TRUE	yes
+S001_8_4_2	4	Afrikaans	"{""sql"":""select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;""}"	json	"select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;"	TRUE	yes
+S001_8_4_3	4	Afrikaans	"{""sql"":""select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;""}"	json	"select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;"	TRUE	yes
+S001_8_5_1	5	Afrikaans	"AI: {""sql"":""select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');""}"	contains_single_json	select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');	TRUE	yes
+S001_8_5_2	5	Afrikaans	"Ik begrijp uw vraag. Hier is de SQL-query die u zoekt:
+
+{""sql"":""select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');"" }"	contains_single_json	select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');	TRUE	yes
+S001_8_5_3	5	Afrikaans	"AI: {""sql"":""select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');""}"	contains_single_json	select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');	TRUE	yes
+S001_8_6_1	6	Afrikaans	"{""sql"":""select division from metadata where lineage = 'XBB.1' group by division, date having count(*) > 0 order by date limit 1;""}"	json	"select division from metadata where lineage = 'XBB.1' group by division, date having count(*) > 0 order by date limit 1;"	TRUE	yes
+S001_8_6_2	6	Afrikaans	"AI: {""sql"":""select division from metadata where lineage = 'XBB.1' group by division, date having count(*) > 0 order by date limit 1;""}"	contains_single_json	"select division from metadata where lineage = 'XBB.1' group by division, date having count(*) > 0 order by date limit 1;"	TRUE	yes
+S001_8_6_3	6	Afrikaans	"AI: {""sql"":""select division from metadata where lineage = 'XBB.1' group by division, date having count(*) > 0 order by date limit 1;""}"	contains_single_json	"select division from metadata where lineage = 'XBB.1' group by division, date having count(*) > 0 order by date limit 1;"	TRUE	yes
+S001_9_1_1	1	English	"{""sql"":""SELECT lineage, COUNT(*) FROM metadata WHERE region = 'Asia' AND date BETWEEN '2022-01-01' AND '2022-12-31' GROUP BY lineage ORDER BY COUNT(*) DESC LIMIT 5;""}"	json	"SELECT lineage, COUNT(*) FROM metadata WHERE region = 'Asia' AND date BETWEEN '2022-01-01' AND '2022-12-31' GROUP BY lineage ORDER BY COUNT(*) DESC LIMIT 5;"	TRUE	yes
+S001_9_1_2	1	English	"Here's your SQL query:
+
+```
+SELECT lineage, COUNT(*) AS count
+FROM metadata
+WHERE region = 'Asia' AND date BETWEEN '2022-01-01' AND '2022-12-31'
+GROUP BY lineage
+ORDER BY count DESC
+LIMIT 5;
+```
+
+And here's the JSON response:
+
+```
+{
+    ""sql"": ""SELECT lineage, COUNT(*) AS count\nFROM metadata\nWHERE region = 'Asia' AND date BETWEEN '2022-01-01' AND '2022-12-31'\nGROUP BY lineage\nORDER BY count DESC\nLIMIT 5;""
+}
+```"	contains_single_json	"SELECT lineage, COUNT(*) AS count
+FROM metadata
+WHERE region = 'Asia' AND date BETWEEN '2022-01-01' AND '2022-12-31'
+GROUP BY lineage
+ORDER BY count DESC
+LIMIT 5;"	TRUE	yes
+S001_9_1_3	1	English	"{""sql"":""SELECT lineage, COUNT(*) FROM metadata WHERE region = 'Asia' AND date BETWEEN '2022-01-01' AND '2022-12-31' GROUP BY lineage ORDER BY COUNT(*) DESC LIMIT 5;""}"	json	"SELECT lineage, COUNT(*) FROM metadata WHERE region = 'Asia' AND date BETWEEN '2022-01-01' AND '2022-12-31' GROUP BY lineage ORDER BY COUNT(*) DESC LIMIT 5;"	TRUE	yes
+S001_9_2_1	2	English	"{""sql"":""select date_trunc('month', date) as month, avg(count(*)) from metadata where country = 'Brazil' group by month;""}"	json	"select date_trunc('month', date) as month, avg(count(*)) from metadata where country = 'Brazil' group by month;"	FALSE	no
+S001_9_2_2	2	English	"{""sql"":""select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;""}"	json	"select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;"	TRUE	yes
+S001_9_2_3	2	English	"Here's the SQL query to answer your question:
+
+```
+select date_trunc('month', date) as month, avg(count) as mean_sequences
+from (
+    select date, count(*) as count
+    from metadata
+    where country = 'Brazil'
+    group by date
+) as counts
+group by month;
+```
+
+This query first groups the sequences by date and counts the number of sequences for each date. Then, it calculates the mean number of sequences per month by grouping the counts by month and taking the average. The result will be a table with two columns: ""month"" and ""mean_sequences"". 
+
+Here's the JSON response:
+
+```
+{
+    ""sql"": ""select date_trunc('month', date) as month, avg(count) as mean_sequences from ( select date, count(*) as count from metadata where country = 'Brazil' group by date ) as counts group by month;""
+}
+```"	contains_single_json	"select date_trunc('month', date) as month, avg(count) as mean_sequences from ( select date, count(*) as count from metadata where country = 'Brazil' group by date ) as counts group by month;"	FALSE	no
+S001_9_3_1	3	English	"{""sql"":""SELECT country, COUNT(*) FROM metadata WHERE lineage = 'B.1.1.7' GROUP BY country;""}"	json	"SELECT country, COUNT(*) FROM metadata WHERE lineage = 'B.1.1.7' GROUP BY country;"	TRUE	yes
+S001_9_3_2	3	English	"{""sql"":""SELECT country, COUNT(*) FROM metadata WHERE lineage = 'B.1.1.7' GROUP BY country;""}"	json	"SELECT country, COUNT(*) FROM metadata WHERE lineage = 'B.1.1.7' GROUP BY country;"	TRUE	yes
+S001_9_3_3	3	English	"AI: {""sql"":""select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;""}"	contains_single_json	"select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;"	TRUE	yes
+S001_9_4_1	4	English	"{""sql"":""select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;""}"	json	"select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;"	TRUE	yes
+S001_9_4_2	4	English	"{""sql"":""select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() >= 0.9;""}"	json	"select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() >= 0.9;"	TRUE	yes
+S001_9_4_3	4	English	"{""sql"":""select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() >= 0.9;""}"	json	"select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() >= 0.9;"	TRUE	yes
+S001_9_5_1	5	English	"{""sql"":""select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');""}"	json	select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');	TRUE	yes
+S001_9_5_2	5	English	"{""sql"":""select * from metadata where aa_S_501 = 'Y' and ((aa_S_69 = '-' and aa_S_70 != '-') or (aa_S_69 != '-' and aa_S_70 = '-'))""}"	json	select * from metadata where aa_S_501 = 'Y' and ((aa_S_69 = '-' and aa_S_70 != '-') or (aa_S_69 != '-' and aa_S_70 = '-'))	FALSE	no
+S001_9_5_3	5	English	"{""sql"":""select * from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');""}"	json	select * from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');	FALSE	no
+S001_9_6_1	6	English	"AI: {""sql"":""select division from metadata where lineage = 'XBB.1' and country = 'USA' order by date limit 1;""}"	contains_single_json	select division from metadata where lineage = 'XBB.1' and country = 'USA' order by date limit 1;	FALSE	yes
+S001_9_6_2	6	English	I'm sorry	not_parsable		FALSE	no
+S001_9_6_3	6	English	"{""sql"":""select division from metadata where lineage = 'XBB.1' and country = 'USA' order by date limit 1;""}"	json	select division from metadata where lineage = 'XBB.1' and country = 'USA' order by date limit 1;	FALSE	yes
+S001_10_1_1	1	German	"{""error"":""The LAPIS database only contains information about SARS-CoV-2 sequences, samples, variants, and mutations. It does not contain information about COVID-19 cases or variants by year or region. Therefore, I cannot answer your question.""}"	json		FALSE	no
+S001_10_1_2	1	German	"{""sql"":""SELECT lineage, COUNT(*) FROM metadata WHERE region = 'Asia' AND date BETWEEN '2022-01-01' AND '2022-12-31' GROUP BY lineage ORDER BY COUNT(*) DESC LIMIT 5;""}"	json	"SELECT lineage, COUNT(*) FROM metadata WHERE region = 'Asia' AND date BETWEEN '2022-01-01' AND '2022-12-31' GROUP BY lineage ORDER BY COUNT(*) DESC LIMIT 5;"	TRUE	yes
+S001_10_1_3	1	German	"AI: {""error"":""Die Frage kann nicht mit der LAPIS-Datenbank beantwortet werden, da sie keine Informationen über Covid-Varianten enthält. Es enthält nur Informationen über SARS-CoV-2-Sequenzen, Proben, Varianten und Mutationen.""}"	contains_single_json		FALSE	no
+S001_10_2_1	2	German	"{""sql"":""select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;""}"	json	"select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;"	TRUE	yes
+S001_10_2_2	2	German	"Ja, hier ist die SQL-Abfrage, um Ihre Frage zu beantworten:
+
+{""sql"":""select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;""}
+
+Dies gibt die Anzahl der Sequenzen pro Monat in Brasilien zurück."	contains_single_json	"select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;"	TRUE	yes
+S001_10_2_3	2	German	"{""sql"":""select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;""}"	json	"select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;"	TRUE	yes
+S001_10_3_1	3	German	"{""sql"":""select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;""}"	json	"select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;"	TRUE	yes
+S001_10_3_2	3	German	"{""sql"":""select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;""}"	json	"select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;"	TRUE	yes
+S001_10_3_3	3	German	"{""sql"":""select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;""}"	json	"select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;"	TRUE	yes
+S001_10_4_1	4	German	"{""sql"":""select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;""}"	json	"select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;"	TRUE	yes
+S001_10_4_2	4	German	"{""sql"":""select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;""}"	json	"select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;"	TRUE	yes
+S001_10_4_3	4	German	"AI: {""sql"":""select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;""}"	contains_single_json	"select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;"	TRUE	yes
+S001_10_5_1	5	German	"{""sql"":""select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');""}"	json	select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');	TRUE	yes
+S001_10_5_2	5	German	"{""sql"":""select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');""}"	json	select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');	TRUE	yes
+S001_10_5_3	5	German	"{""sql"":""select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');""}"	json	select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');	TRUE	yes
+S001_10_6_1	6	German	"{""sql"":""select division from metadata where lineage = 'XBB.1' and country = 'USA' order by date limit 1;""}"	json	select division from metadata where lineage = 'XBB.1' and country = 'USA' order by date limit 1;	FALSE	yes
+S001_10_6_2	6	German	"{""sql"":""select division from metadata where lineage = 'XBB.1' group by division, date having count(*) > 0 order by date limit 1;""}"	json	"select division from metadata where lineage = 'XBB.1' group by division, date having count(*) > 0 order by date limit 1;"	TRUE	yes
+S001_10_6_3	6	German	"AI: {""sql"":""select division from metadata where lineage = 'XBB.1' order by date_submitted limit 1;""}"	contains_single_json	select division from metadata where lineage = 'XBB.1' order by date_submitted limit 1;	FALSE	no
+S001_11_1_1	1	中文	"{""sql"":""SELECT lineage, COUNT(*) FROM metadata WHERE region = 'Asia' AND date BETWEEN '2022-01-01' AND '2022-12-31' GROUP BY lineage ORDER BY COUNT(*) DESC LIMIT 5;""}"	json	"SELECT lineage, COUNT(*) FROM metadata WHERE region = 'Asia' AND date BETWEEN '2022-01-01' AND '2022-12-31' GROUP BY lineage ORDER BY COUNT(*) DESC LIMIT 5;"	TRUE	yes
+S001_11_1_2	1	中文	"{""sql"":""SELECT lineage, COUNT(*) FROM metadata WHERE date BETWEEN '2022-01-01' AND '2022-12-31' AND region = 'Asia' GROUP BY lineage ORDER BY COUNT(*) DESC LIMIT 5;""}"	json	"SELECT lineage, COUNT(*) FROM metadata WHERE date BETWEEN '2022-01-01' AND '2022-12-31' AND region = 'Asia' GROUP BY lineage ORDER BY COUNT(*) DESC LIMIT 5;"	TRUE	yes
+S001_11_2_1	2	中文	"{""sql"":""select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;""}"	json	"select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;"	TRUE	yes
+S001_11_2_2	2	中文	"{""sql"":""select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;""}"	json	"select date_trunc('month', date) as month, count(*) from metadata where country = 'Brazil' group by month;"	TRUE	yes
+S001_11_2_3	2	中文	"AI: {""error"":""该问题无法使用LAPIS数据库的查询语言回答。""} (This question cannot be answered with the LAPIS database query language.)"	contains_single_json		FALSE	no
+S001_11_3_1	3	中文	"{""sql"":""select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;""}"	json	"select country, count(*) from metadata where lineage = 'B.1.1.7' group by country;"	TRUE	yes
+S001_11_3_2	3	中文	"{""sql"":""SELECT country, COUNT(*) FROM metadata WHERE lineage = 'B.1.1.7' GROUP BY country;""}"	json	"SELECT country, COUNT(*) FROM metadata WHERE lineage = 'B.1.1.7' GROUP BY country;"	TRUE	yes
+S001_11_4_1	4	中文	"{""sql"":""select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;""}"	json	"select mutation, proportion() from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;"	TRUE	yes
+S001_11_4_2	4	中文	"{""sql"":""select mutation, proportion() from aa_mutations where aa_S_501 = 'N' and aa_S_982 = 'A' and aa_D_1118 = 'H' and aa_A_570 = 'D' and aa_P_681 = 'H' and aa_T_716 = 'I' and aa_S_982 = 'A' and aa_D_1118 = 'H' and proportion() > 0.9;""}"	json	"select mutation, proportion() from aa_mutations where aa_S_501 = 'N' and aa_S_982 = 'A' and aa_D_1118 = 'H' and aa_A_570 = 'D' and aa_P_681 = 'H' and aa_T_716 = 'I' and aa_S_982 = 'A' and aa_D_1118 = 'H' and proportion() > 0.9;"	FALSE	no
+S001_11_4_3	4	中文	"{""sql"":""select mutation from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;""}"	json	select mutation from aa_mutations where lineage = 'B.1.1.7' group by mutation having proportion() > 0.9;	TRUE	yes
+S001_11_5_1	5	中文	"{""sql"":""select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');""}"	json	select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');	TRUE	yes
+S001_11_5_2	5	中文	"{""sql"":""select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');""}"	json	select count(*) from metadata where aa_S_501 = 'Y' and (aa_S_69 = '-' or aa_S_70 = '-');	TRUE	yes
+S001_11_6_1	6	中文	"AI: {""sql"":""select division from metadata where lineage = 'XBB.1' and country = 'USA' order by date limit 1;""}"	contains_single_json	select division from metadata where lineage = 'XBB.1' and country = 'USA' order by date limit 1;	FALSE	yes
+S001_11_6_2	6	中文	"AI: {""sql"":""select division from metadata where lineage = 'XBB.1' and country = 'USA' order by date limit 1;""}"	contains_single_json	select division from metadata where lineage = 'XBB.1' and country = 'USA' order by date limit 1;	FALSE	yes
